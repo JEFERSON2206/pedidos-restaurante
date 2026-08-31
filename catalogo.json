@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "nombre": "Hamburguesa Clásica",
+        "categoria": "Hamburguesas",
+        "descripcion": "Pan artesanal, carne de res, queso, lechuga, tomate y salsa de la casa.",
+        "precio": 15000,
+        "imagen": "img/productos/hamburguesa-clasica.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Hamburguesa Especial",
+        "categoria": "Hamburguesas",
+        "descripcion": "Carne de res, doble queso, tocineta, lechuga, tomate y salsa especial.",
+        "precio": 20000,
+        "imagen": "img/productos/hamburguesa-especial.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Hamburguesa Doble",
+        "categoria": "Hamburguesas",
+        "descripcion": "Doble carne de res, doble queso, cebolla caramelizada y salsa de la casa.",
+        "precio": 25000,
+        "imagen": "img/productos/hamburguesa-doble.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Perro Clásico",
+        "categoria": "Perros",
+        "descripcion": "Salchicha, papa ripio, cebolla, salsas y queso.",
+        "precio": 12000,
+        "imagen": "img/productos/perro-clasico.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Perro Especial",
+        "categoria": "Perros",
+        "descripcion": "Salchicha, tocineta, queso, papa ripio, cebolla y salsas especiales.",
+        "precio": 17000,
+        "imagen": "img/productos/perro-especial.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Salchipapa Clásica",
+        "categoria": "Salchipapas",
+        "descripcion": "Papas fritas, salchicha y salsas.",
+        "precio": 14000,
+        "imagen": "img/productos/salchipapa-clasica.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Salchipapa Especial",
+        "categoria": "Salchipapas",
+        "descripcion": "Papas, salchicha, pollo, queso, tocineta y salsas.",
+        "precio": 22000,
+        "imagen": "img/productos/salchipapa-especial.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Combo Hamburguesa",
+        "categoria": "Combos",
+        "descripcion": "Hamburguesa clásica, papas fritas y gaseosa personal.",
+        "precio": 22000,
+        "imagen": "img/productos/combo-hamburguesa.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Combo Especial",
+        "categoria": "Combos",
+        "descripcion": "Hamburguesa especial, papas fritas y gaseosa personal.",
+        "precio": 27000,
+        "imagen": "img/productos/combo-especial.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Papas Fritas",
+        "categoria": "Combos",
+        "descripcion": "Porción de papas fritas crujientes.",
+        "precio": 8000,
+        "imagen": "img/productos/papas.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Gaseosa Personal",
+        "categoria": "Bebidas",
+        "descripcion": "Gaseosa personal fría.",
+        "precio": 4000,
+        "imagen": "img/productos/gaseosa.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Gaseosa 1.5 Litros",
+        "categoria": "Bebidas",
+        "descripcion": "Gaseosa familiar de 1.5 litros.",
+        "precio": 8000,
+        "imagen": "img/productos/gaseosa-1-5.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Agua",
+        "categoria": "Bebidas",
+        "descripcion": "Agua embotellada fría.",
+        "precio": 3000,
+        "imagen": "img/productos/agua.jpg"
+    }
+]

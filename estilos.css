@@ -1,0 +1,1039 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.72),rgba(0,0,0,0.72)),
+        url("img/fondo/fondo.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+
+    background-color:#080808;
+    color:#fff;
+}
+
+button,
+input,
+select,
+textarea{
+    font-family:inherit;
+}
+
+
+/* =================================
+   ENCABEZADO
+================================= */
+
+.encabezado{
+    width:100%;
+
+    background:rgba(5,5,5,0.97);
+
+    color:white;
+
+    padding:12px 6%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    position:sticky;
+    top:0;
+
+    z-index:100;
+
+    border-bottom:2px solid #ff5a00;
+
+    box-shadow:
+        0 3px 20px rgba(255,80,0,0.25);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-icono{
+    width:50px;
+    height:50px;
+
+    background:
+        linear-gradient(145deg,#ff8c00,#ff3d00);
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:27px;
+
+    box-shadow:
+        0 0 12px rgba(255,80,0,0.7);
+}
+
+.logo h1{
+    font-size:21px;
+    font-weight:900;
+
+    color:#fff;
+
+    letter-spacing:.5px;
+}
+
+.logo p{
+    font-size:13px;
+    color:#ff8c00;
+
+    margin-top:3px;
+
+    font-weight:bold;
+}
+
+
+/* =================================
+   BOTÓN CANASTA
+================================= */
+
+.boton-canasta{
+    border:2px solid #ff6a00;
+
+    background:
+        linear-gradient(135deg,#ff7a00,#ff3d00);
+
+    color:white;
+
+    padding:10px 16px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    display:flex;
+    align-items:center;
+    gap:7px;
+
+    font-weight:bold;
+
+    box-shadow:
+        0 0 12px rgba(255,80,0,.35);
+
+    transition:.2s;
+}
+
+.boton-canasta:hover{
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 0 20px rgba(255,80,0,.65);
+}
+
+.boton-canasta strong{
+    background:#050505;
+    color:#ffb000;
+
+    min-width:23px;
+    height:23px;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:12px;
+}
+
+
+/* =================================
+   PRESENTACIÓN
+================================= */
+
+.presentacion{
+    text-align:center;
+
+    padding:45px 20px 30px;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.78),
+            rgba(15,5,0,.78)
+        );
+
+    border-bottom:1px solid rgba(255,90,0,.35);
+}
+
+.presentacion h2{
+    font-size:32px;
+
+    margin-bottom:10px;
+
+    color:white;
+
+    text-shadow:
+        0 0 10px rgba(255,80,0,.35);
+}
+
+.presentacion p{
+    color:#ddd;
+
+    font-size:15px;
+}
+
+
+/* =================================
+   BUSCADOR
+================================= */
+
+.buscador-container{
+    padding:25px 20px;
+
+    background:rgba(5,5,5,.88);
+}
+
+.buscador{
+    max-width:750px;
+
+    margin:auto;
+
+    background:#111;
+
+    border:2px solid #3b3b3b;
+
+    border-radius:16px;
+
+    padding:13px 17px;
+
+    display:flex;
+    align-items:center;
+
+    gap:12px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,.45);
+
+    transition:.25s;
+}
+
+.buscador:hover{
+    border-color:#ff6a00;
+
+    box-shadow:
+        0 0 15px rgba(255,80,0,.25);
+}
+
+.buscador:focus-within{
+    border-color:#ff6a00;
+
+    box-shadow:
+        0 0 0 3px rgba(255,90,0,.15),
+        0 0 20px rgba(255,70,0,.25);
+
+    transform:translateY(-1px);
+}
+
+.buscador span{
+    width:40px;
+    height:40px;
+
+    background:
+        linear-gradient(145deg,#ff9800,#ff4500);
+
+    border-radius:10px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:20px;
+
+    flex-shrink:0;
+
+    box-shadow:
+        0 0 10px rgba(255,80,0,.35);
+}
+
+.buscador input{
+    width:100%;
+
+    border:none;
+    outline:none;
+
+    background:transparent;
+
+    font-size:16px;
+
+    color:white;
+}
+
+.buscador input::placeholder{
+    color:#999;
+}
+
+
+/* =================================
+   CATEGORÍAS
+================================= */
+
+.categorias{
+    display:flex;
+
+    gap:10px;
+
+    overflow-x:auto;
+
+    padding:16px 6%;
+
+    background:rgba(5,5,5,.92);
+
+    border-top:1px solid #222;
+    border-bottom:1px solid #222;
+}
+
+.categorias::-webkit-scrollbar{
+    display:none;
+}
+
+.categoria{
+    white-space:nowrap;
+
+    border:1px solid #444;
+
+    background:#151515;
+
+    color:#ddd;
+
+    padding:10px 17px;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    transition:.2s;
+}
+
+.categoria:hover{
+    border-color:#ff6a00;
+
+    color:#ff8c00;
+
+    box-shadow:
+        0 0 10px rgba(255,80,0,.18);
+}
+
+.categoria.activa{
+    background:
+        linear-gradient(135deg,#ff8c00,#ff4500);
+
+    color:white;
+
+    border-color:#ff6a00;
+
+    box-shadow:
+        0 0 15px rgba(255,80,0,.35);
+}
+
+
+/* =================================
+   PRODUCTOS
+================================= */
+
+.productos-container{
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:35px 20px;
+}
+
+.productos{
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fill,minmax(240px,1fr));
+
+    gap:22px;
+}
+
+.producto{
+    background:
+        linear-gradient(
+            145deg,
+            #151515,
+            #0c0c0c
+        );
+
+    border:1px solid #292929;
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 5px 18px rgba(0,0,0,.55);
+
+    transition:.25s;
+}
+
+.producto:hover{
+    transform:translateY(-5px);
+
+    border-color:#ff5a00;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,.7),
+        0 0 15px rgba(255,70,0,.22);
+}
+
+.producto-imagen{
+    width:100%;
+
+    height:180px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.producto-info{
+    padding:17px;
+}
+
+.producto-categoria{
+    font-size:11px;
+
+    color:#ff8c00;
+
+    margin-bottom:6px;
+
+    text-transform:uppercase;
+
+    font-weight:bold;
+
+    letter-spacing:.5px;
+}
+
+.producto h3{
+    font-size:19px;
+
+    margin-bottom:7px;
+
+    color:white;
+}
+
+.producto-descripcion{
+    color:#aaa;
+
+    font-size:14px;
+
+    line-height:1.4;
+
+    min-height:40px;
+
+    margin-bottom:13px;
+}
+
+.producto-precio{
+    font-size:20px;
+
+    font-weight:900;
+
+    margin-bottom:13px;
+
+    color:#ffb000;
+
+    text-shadow:
+        0 0 8px rgba(255,150,0,.25);
+}
+
+
+/* =================================
+   BOTÓN AGREGAR
+================================= */
+
+.boton-agregar{
+    width:100%;
+
+    border:none;
+
+    background:
+        linear-gradient(135deg,#ff8500,#ff4500);
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:9px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    transition:.2s;
+
+    box-shadow:
+        0 3px 10px rgba(255,70,0,.25);
+}
+
+.boton-agregar:hover{
+    background:
+        linear-gradient(135deg,#ff9d00,#ff4d00);
+
+    transform:scale(1.02);
+
+    box-shadow:
+        0 0 15px rgba(255,70,0,.45);
+}
+
+
+/* =================================
+   SIN RESULTADOS
+================================= */
+
+.sin-resultados{
+    display:none;
+
+    text-align:center;
+
+    padding:50px 20px;
+
+    color:#aaa;
+
+    font-size:18px;
+}
+
+
+/* =================================
+   MODAL
+================================= */
+
+.modal-fondo{
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.82);
+
+    display:none;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:15px;
+
+    z-index:200;
+}
+
+.modal-fondo.visible{
+    display:flex;
+}
+
+.modal{
+    background:
+        linear-gradient(
+            145deg,
+            #171717,
+            #0d0d0d
+        );
+
+    color:white;
+
+    width:100%;
+
+    max-width:550px;
+
+    max-height:92vh;
+
+    overflow-y:auto;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    border:1px solid #ff5a00;
+
+    box-shadow:
+        0 0 30px rgba(255,70,0,.25);
+}
+
+
+/* =================================
+   ENCABEZADO MODAL
+================================= */
+
+.modal-header{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:20px;
+}
+
+.modal-header h2{
+    font-size:24px;
+
+    color:white;
+}
+
+.modal-header p{
+    color:#aaa;
+
+    font-size:13px;
+
+    margin-top:4px;
+}
+
+.cerrar-modal{
+    width:35px;
+    height:35px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#292929;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.cerrar-modal:hover{
+    background:#ff4d00;
+}
+
+
+/* =================================
+   ITEMS CANASTA
+================================= */
+
+.items-canasta{
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    margin-bottom:20px;
+}
+
+.item-canasta{
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:10px;
+
+    padding:12px;
+
+    background:#1b1b1b;
+
+    border:1px solid #292929;
+
+    border-radius:10px;
+}
+
+.item-info{
+    flex:1;
+}
+
+.item-info h4{
+    margin-bottom:4px;
+
+    color:white;
+}
+
+.item-info p{
+    font-size:13px;
+
+    color:#aaa;
+}
+
+.item-controles{
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+}
+
+.cantidad-btn{
+    width:30px;
+    height:30px;
+
+    border:none;
+
+    background:#333;
+
+    color:white;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
+
+.cantidad-btn:hover{
+    background:#ff6500;
+}
+
+.eliminar-item{
+    border:none;
+
+    background:transparent;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    color:#ff5a00;
+}
+
+
+/* =================================
+   TOTAL
+================================= */
+
+.total-container{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-top:1px solid #333;
+
+    padding-top:15px;
+
+    margin-bottom:20px;
+
+    font-size:19px;
+}
+
+.total-container strong{
+    font-size:24px;
+
+    color:#ffb000;
+}
+
+
+/* =================================
+   DATOS CLIENTE
+================================= */
+
+.datos-cliente{
+    margin-top:10px;
+}
+
+.datos-cliente h3{
+    margin-bottom:15px;
+
+    color:#ff8c00;
+}
+
+.datos-cliente label{
+    display:block;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    margin-top:12px;
+
+    margin-bottom:5px;
+
+    color:#ddd;
+}
+
+.datos-cliente input,
+.datos-cliente select,
+.datos-cliente textarea{
+    width:100%;
+
+    border:1px solid #3a3a3a;
+
+    border-radius:9px;
+
+    padding:12px;
+
+    outline:none;
+
+    font-size:14px;
+
+    background:#111;
+
+    color:white;
+}
+
+.datos-cliente input::placeholder,
+.datos-cliente textarea::placeholder{
+    color:#777;
+}
+
+.datos-cliente input:focus,
+.datos-cliente select:focus,
+.datos-cliente textarea:focus{
+    border-color:#ff6500;
+
+    box-shadow:
+        0 0 0 3px rgba(255,90,0,.12);
+}
+
+
+/* =================================
+   BOTONES CANASTA
+================================= */
+
+.acciones-canasta{
+    display:flex;
+
+    gap:10px;
+
+    margin-top:22px;
+}
+
+.boton-vaciar{
+    padding:13px 16px;
+
+    border:none;
+
+    border-radius:9px;
+
+    background:#292929;
+
+    color:#ddd;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
+
+.boton-vaciar:hover{
+    background:#3a3a3a;
+}
+
+.boton-whatsapp{
+    flex:1;
+
+    border:none;
+
+    border-radius:9px;
+
+    padding:13px;
+
+    background:#25d366;
+
+    color:white;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    box-shadow:
+        0 3px 12px rgba(37,211,102,.25);
+}
+
+.boton-whatsapp:hover{
+    background:#1ebe5d;
+
+    transform:translateY(-1px);
+}
+
+
+/* =================================
+   NOTIFICACIÓN
+================================= */
+
+.notificacion{
+    position:fixed;
+
+    bottom:20px;
+    left:50%;
+
+    transform:
+        translateX(-50%)
+        translateY(100px);
+
+    background:#151515;
+
+    color:white;
+
+    padding:13px 20px;
+
+    border-radius:30px;
+
+    border:1px solid #ff6500;
+
+    opacity:0;
+
+    transition:.3s;
+
+    z-index:500;
+
+    font-size:14px;
+
+    box-shadow:
+        0 0 15px rgba(255,70,0,.25);
+}
+
+.notificacion.mostrar{
+    transform:
+        translateX(-50%)
+        translateY(0);
+
+    opacity:1;
+}
+
+
+/* =================================
+   CELULARES
+================================= */
+
+@media(max-width:600px){
+
+    .encabezado{
+        padding:11px 15px;
+    }
+
+    .logo h1{
+        font-size:17px;
+    }
+
+    .logo p{
+        font-size:11px;
+    }
+
+    .logo-icono{
+        width:43px;
+        height:43px;
+        font-size:22px;
+    }
+
+    .boton-canasta span{
+        display:none;
+    }
+
+
+    .presentacion{
+        padding:32px 15px 22px;
+    }
+
+    .presentacion h2{
+        font-size:25px;
+    }
+
+
+    .buscador-container{
+        padding:18px 15px;
+    }
+
+    .buscador{
+        border-radius:14px;
+        padding:11px 13px;
+    }
+
+    .buscador span{
+        width:34px;
+        height:34px;
+        font-size:17px;
+    }
+
+    .buscador input{
+        font-size:15px;
+    }
+
+
+    .categorias{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+
+    .productos-container{
+        padding:20px 15px;
+    }
+
+    .productos{
+        grid-template-columns:1fr 1fr;
+        gap:12px;
+    }
+
+    .producto{
+        border-radius:13px;
+    }
+
+    .producto-imagen{
+        height:135px;
+    }
+
+    .producto-info{
+        padding:12px;
+    }
+
+    .producto h3{
+        font-size:16px;
+    }
+
+    .producto-descripcion{
+        font-size:12px;
+    }
+
+    .producto-precio{
+        font-size:17px;
+    }
+
+    .boton-agregar{
+        padding:10px 5px;
+        font-size:13px;
+    }
+
+
+    .modal{
+        padding:17px;
+        border-radius:15px;
+    }
+
+    .acciones-canasta{
+        position:sticky;
+        bottom:0;
+
+        background:#0d0d0d;
+
+        padding-top:10px;
+    }
+}
+
+
+/* =================================
+   CELULARES PEQUEÑOS
+================================= */
+
+@media(max-width:360px){
+
+    .productos{
+        grid-template-columns:1fr;
+    }
+
+}

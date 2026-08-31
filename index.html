@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Express | Pedidos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">
+            <div class="logo-icono">🍔</div>
+            <div>
+                <h1>MERCEDES FAST FOOD</h1>
+                <p>Comidas rápidas</p>
+            </div>
+        </div>
+        <button class="boton-canasta" id="abrirCanasta">
+            🛒 <span>Canasta</span>
+            <strong id="contadorCanasta">0</strong>
+        </button>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            <h2>¡Haz tu pedido! 🍔</h2>
+            <p>Elige tus productos, agrégalos a la canasta y envíanos tu pedido por WhatsApp.</p>
+        </section>
+
+        <section class="buscador-container">
+            <div class="buscador">
+                <span>🔎</span>
+                <input type="text" id="buscador" placeholder="Buscar producto...">
+            </div>
+        </section>
+
+        <section class="categorias" id="categorias">
+            <button class="categoria activa" data-categoria="Todos">Todos</button>
+            <button class="categoria" data-categoria="Hamburguesas">🍔 Hamburguesas</button>
+            <button class="categoria" data-categoria="Perros">🌭 Perros</button>
+            <button class="categoria" data-categoria="Salchipapas">🍟 Salchipapas</button>
+            <button class="categoria" data-categoria="Combos">🥤 Combos</button>
+            <button class="categoria" data-categoria="Bebidas">🥤 Bebidas</button>
+        </section>
+
+        <section class="productos-container">
+            <div class="productos" id="productos"></div>
+            <div class="sin-resultados" id="sinResultados">😕 No encontramos productos.</div>
+        </section>
+    </main>
+
+    <div class="modal-fondo" id="modalCanasta">
+        <div class="modal">
+            <div class="modal-header">
+                <div>
+                    <h2>🛒 Tu pedido</h2>
+                    <p>Revisa los productos antes de enviar.</p>
+                </div>
+                <button class="cerrar-modal" id="cerrarCanasta">×</button>
+            </div>
+
+            <div class="items-canasta" id="itemsCanasta"></div>
+
+            <div class="total-container">
+                <span>Total</span>
+                <strong id="totalPedido">$0</strong>
+            </div>
+
+            <div class="datos-cliente">
+                <h3>📋 Datos del pedido</h3>
+
+                <label for="nombreCliente">Nombre</label>
+                <input type="text" id="nombreCliente" placeholder="Tu nombre">
+
+                <label for="direccionCliente">Dirección</label>
+                <input type="text" id="direccionCliente" placeholder="Dirección para el domicilio">
+
+                <label for="telefonoCliente">Teléfono</label>
+                <input type="tel" id="telefonoCliente" placeholder="Tu número de teléfono">
+
+                <label for="metodoPago">Forma de pago</label>
+                <select id="metodoPago">
+                    <option value="">Selecciona una opción</option>
+                    <option value="Efectivo">💵 Efectivo</option>
+                    <option value="Nequi">📱 Nequi</option>
+                    <option value="Daviplata">📱 Daviplata</option>
+                    <option value="Transferencia">🏦 Transferencia</option>
+                </select>
+
+                <label for="observaciones">Observaciones</label>
+                <textarea id="observaciones" rows="3" placeholder="Ej: Sin cebolla, agregar salsa..."></textarea>
+            </div>
+
+            <div class="acciones-canasta">
+                <button class="boton-vaciar" id="vaciarCanasta">🗑️ Vaciar</button>
+                <button class="boton-whatsapp" id="enviarWhatsApp">📲 Enviar pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="notificacion" id="notificacion">Producto agregado a la canasta 🛒</div>
+    <script src="script.js"></script>
+</body>
+</html>
