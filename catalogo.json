@@ -1,106 +1,402 @@
 [
-    {
-        "id": 1,
-        "nombre": "Hamburguesa Clásica",
-        "categoria": "Hamburguesas",
-        "descripcion": "Pan artesanal, carne de res, queso, lechuga, tomate y salsa de la casa.",
-        "precio": 15000,
-        "imagen": "img/productos/hamburguesa-clasica.jpg"
-    },
-    {
-        "id": 2,
-        "nombre": "Hamburguesa Especial",
-        "categoria": "Hamburguesas",
-        "descripcion": "Carne de res, doble queso, tocineta, lechuga, tomate y salsa especial.",
-        "precio": 20000,
-        "imagen": "img/productos/hamburguesa-especial.jpg"
-    },
-    {
-        "id": 3,
-        "nombre": "Hamburguesa Doble",
-        "categoria": "Hamburguesas",
-        "descripcion": "Doble carne de res, doble queso, cebolla caramelizada y salsa de la casa.",
-        "precio": 25000,
-        "imagen": "img/productos/hamburguesa-doble.jpg"
-    },
-    {
-        "id": 4,
-        "nombre": "Perro Clásico",
-        "categoria": "Perros",
-        "descripcion": "Salchicha, papa ripio, cebolla, salsas y queso.",
-        "precio": 12000,
-        "imagen": "img/productos/perro-clasico.jpg"
-    },
-    {
-        "id": 5,
-        "nombre": "Perro Especial",
-        "categoria": "Perros",
-        "descripcion": "Salchicha, tocineta, queso, papa ripio, cebolla y salsas especiales.",
-        "precio": 17000,
-        "imagen": "img/productos/perro-especial.jpg"
-    },
-    {
-        "id": 6,
-        "nombre": "Salchipapa Clásica",
-        "categoria": "Salchipapas",
-        "descripcion": "Papas fritas, salchicha y salsas.",
-        "precio": 14000,
-        "imagen": "img/productos/salchipapa-clasica.jpg"
-    },
-    {
-        "id": 7,
-        "nombre": "Salchipapa Especial",
-        "categoria": "Salchipapas",
-        "descripcion": "Papas, salchicha, pollo, queso, tocineta y salsas.",
-        "precio": 22000,
-        "imagen": "img/productos/salchipapa-especial.jpg"
-    },
-    {
-        "id": 8,
-        "nombre": "Combo Hamburguesa",
-        "categoria": "Combos",
-        "descripcion": "Hamburguesa clásica, papas fritas y gaseosa personal.",
-        "precio": 22000,
-        "imagen": "img/productos/combo-hamburguesa.jpg"
-    },
-    {
-        "id": 9,
-        "nombre": "Combo Especial",
-        "categoria": "Combos",
-        "descripcion": "Hamburguesa especial, papas fritas y gaseosa personal.",
-        "precio": 27000,
-        "imagen": "img/productos/combo-especial.jpg"
-    },
-    {
-        "id": 10,
-        "nombre": "Papas Fritas",
-        "categoria": "Combos",
-        "descripcion": "Porción de papas fritas crujientes.",
-        "precio": 8000,
-        "imagen": "img/productos/papas.jpg"
-    },
-    {
-        "id": 11,
-        "nombre": "Gaseosa Personal",
-        "categoria": "Bebidas",
-        "descripcion": "Gaseosa personal fría.",
-        "precio": 4000,
-        "imagen": "img/productos/gaseosa.jpg"
-    },
-    {
-        "id": 12,
-        "nombre": "Gaseosa 1.5 Litros",
-        "categoria": "Bebidas",
-        "descripcion": "Gaseosa familiar de 1.5 litros.",
-        "precio": 8000,
-        "imagen": "img/productos/gaseosa-1-5.jpg"
-    },
-    {
-        "id": 13,
-        "nombre": "Agua",
-        "categoria": "Bebidas",
-        "descripcion": "Agua embotellada fría.",
-        "precio": 3000,
-        "imagen": "img/productos/agua.jpg"
-    }
+   {
+  "id": 1,
+  "nombre": "Hamburguesa Corriente",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Jamón, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 16000,
+  "imagen": ""
+},
+{
+  "id": 2,
+  "nombre": "Hamburguesa Especial",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Pollo, Tocineta, Queso Chédar, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 21000,
+  "imagen": "img/productos/h.especial.jpeg"
+},
+{
+  "id": 3,
+  "nombre": "Hamburguesa Doble Carne",
+  "categoria": "Hamburguesas",
+  "descripcion": "Doble Carne, Tocineta, Queso Chédar, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 23000,
+  "imagen": ""
+},
+{
+  "id": 4,
+  "nombre": "Hamburguesa Ranchera",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Pollo, Chorizo, Tocineta, Queso Chédar, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 23000,
+  "imagen": "img/productos/h.ranchera.jpeg"
+},
+{
+  "id": 5,
+  "nombre": "Hamburguesa Filete de Pechuga",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Filete de Pechuga, Tocineta, Queso Chédar, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 24000,
+  "imagen": "img/productos/h.filete.jpeg"
+},
+{
+  "id": 6,
+  "nombre": "Hamburguesa Super",
+  "categoria": "Hamburguesas",
+  "descripcion": "Doble Carne, Pollo, Tocineta, Queso Chédar, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 25000,
+  "imagen": "img/productos/h.super.jpeg"
+},
+{
+  "id": 7,
+  "nombre": "Hamburguesa De la Casa",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Pollo, Carne En Tiras, Tocineta, Maíz, Queso Chédar, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 26000,
+  "imagen": "img/productos/de la casa.jpeg"
+},
+{
+  "id": 8,
+  "nombre": "Hamburguesa Triple Carne",
+  "categoria": "Hamburguesas",
+  "descripcion": "Tres Carnes, Queso Chédar, Tocineta, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 27000,
+  "imagen": ""
+},
+{
+  "id": 9,
+  "nombre": "Perro Corriente",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Cebolla Picada, Papa Molida, Queso Rallado, Papa Francesa.",
+  "precio": 10000,
+  "imagen": ""
+},
+{
+  "id": 10,
+  "nombre": "Perro Americano Corriente",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha Americana, Cebolla Picada, Queso Rallado, Papa Francesa.",
+  "precio": 15000,
+  "imagen": ""
+},
+{
+  "id": 11,
+  "nombre": "Perro Especial",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Carne Picada, Pollo, Queso Gratinado, Tocineta, Papa Francesa.",
+  "precio": 21000,
+  "imagen": "img/productos/perroespecial.jpeg"
+},
+{
+  "id": 12,
+  "nombre": "Perro Perroloco",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Carne Picada, Pollo, Chorizo Picado, Tocineta, Queso Gratinado, Papa Francesa.",
+  "precio": 23000,
+  "imagen": ""
+},
+{
+  "id": 13,
+  "nombre": "Perro Americano Especial",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha Americana, Carne Picada, Pollo, Tocineta, Queso Gratinado, Papa Francesa.",
+  "precio": 23000,
+  "imagen": ""
+},
+{
+  "id": 14,
+  "nombre": "Perro Super",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Carne Picada, Pollo, Maíz, Tocineta, Chorizo Picado, Queso Gratinado, Papa Francesa.",
+  "precio": 25000,
+  "imagen": ""
+},
+{
+  "id": 15,
+  "nombre": "Perro Super Americano",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha Americana, Carne Picada, Pollo, Maíz, Tocineta, Chorizo Picado, Queso Gratinado, Papa Francesa.",
+  "precio": 27000,
+  "imagen": ""
+},
+{
+  "id": 16,
+  "nombre": "Salchipapa",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha En Pulpos, Queso Rallado, Papa Francesa.",
+  "precio": 15000,
+  "imagen": ""
+},
+{
+  "id": 17,
+  "nombre": "Salchipapa Con Americana",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha Americana, Queso Rallado, Papa Francesa.",
+  "precio": 18000,
+  "imagen": ""
+},
+{
+  "id": 18,
+  "nombre": "Salchi Especial",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha En Pulpos, Carne Picada, Pollo, Queso Rallado, Cebolla Grille, Papa Francesa.",
+  "precio": 24000,
+  "imagen": ""
+},
+{
+  "id": 19,
+  "nombre": "Choripapa",
+  "categoria": "Más Delicias",
+  "descripcion": "Chorizo Picado, Queso Rallado, Papa Francesa.",
+  "precio": 17000,
+  "imagen": ""
+},
+{
+  "id": 20,
+  "nombre": "Chori Especial",
+  "categoria": "Más Delicias",
+  "descripcion": "Chorizo Picado, Carne Picada, Pollo, Queso Rallado, Cebolla Grille, Papa Francesa.",
+  "precio": 24000,
+  "imagen": ""
+},
+{
+  "id": 21,
+  "nombre": "Salchichori Corriente",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha, Chorizo, Queso Rallado, Papa Francesa.",
+  "precio": 20000,
+  "imagen": ""
+},
+{
+  "id": 22,
+  "nombre": "Salchichori Super",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha, Chorizo, Carne Picada, Pollo, Queso Gratinado, Papa Francesa.",
+  "precio": 26000,
+  "imagen": ""
+},
+{
+  "id": 23,
+  "nombre": "Papas Locas",
+  "categoria": "Más Delicias",
+  "descripcion": "Carne Picada, Pollo, Maíz, Cebolla Grille, Queso Gratinado, Papa Francesa.",
+  "precio": 24000,
+  "imagen": ""
+},
+{
+  "id": 24,
+  "nombre": "Papas Locas Super",
+  "categoria": "Más Delicias",
+  "descripcion": "Carne Picada, Pollo, Salchicha Americana, Maíz, Tocineta, Queso Gratinado, Papa Francesa.",
+  "precio": 27000,
+  "imagen": "img/productos/papaslocassuper.jpeg"
+},
+{
+  "id": 25,
+  "nombre": "Papas Locas Criollas",
+  "categoria": "Más Delicias",
+  "descripcion": "Carne Picada, Pollo, Salchicha Americana, Maíz, Tocineta, Queso Gratinado, Chicharrón, Maduro, Papa Francesa.",
+  "precio": 31000,
+  "imagen": "img/productos/papalocascriollas.jpeg"
+},
+{
+    "id": 26,
+    "nombre": "Pechuga a la plancha",
+    "categoria": "Carnes y más",
+    "descripcion": "Pechuga de pollo a la plancha de 250 gramos, acompañada de ensalada y papa a la francesa.",
+    "precio": 22000,
+    "imagen": "pechuga-plancha.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Pechuga gratinada",
+    "categoria": "Carnes y más",
+    "descripcion": "Pechuga de pollo de 250 gramos con maíz, cebolla grillé, queso gratinado y papa a la francesa.",
+    "precio": 25000,
+    "imagen": "pechuga-gratinada.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Carne a la plancha",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne a la plancha de 250 gramos, acompañada de ensalada y papa a la francesa.",
+    "precio": 22000,
+    "imagen": "img/productos/carneplancha.jpeg"
+  },
+  {
+    "id": 29,
+    "nombre": "Carne gratinada",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne de 250 gramos con maíz, cebolla grillé, queso gratinado y papa a la francesa.",
+    "precio": 25000,
+    "imagen": "carne-gratinada.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Desgranado",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne picada, pollo, tocineta, maíz, queso gratinado y papa a la francesa.",
+    "precio": 24000,
+    "imagen": "desgranado.jpg"
+  },
+  {
+    "id": 31,
+    "nombre": "Patacón",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne picada, pollo, tocineta, maíz, queso gratinado y papa a la francesa.",
+    "precio": 23000,
+    "imagen": "img/productos/patacon.jpeg"
+  },
+  {
+    "id": 32,
+    "nombre": "Bandeja mixta para dos",
+    "categoria": "Carnes y más",
+    "descripcion": "250 gramos de carne, 250 gramos de pollo, chorizo picado y papa a la francesa.",
+    "precio": 39000,
+    "imagen": "bandeja-mixta-para-dos.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "Papa loca súper y media",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne picada, pollo, salchicha americana, maíz, tocineta, queso gratinado y papa a la francesa.",
+    "precio": 39000,
+    "imagen": "papa-loca-super-y-media.jpg"
+  },
+{
+  "id": 34,
+  "nombre": "Botella de Agua",
+  "categoria": "Bebidas",
+  "descripcion": "Botella de agua.",
+  "precio": 3000,
+  "imagen": ""
+},
+{
+  "id": 35,
+  "nombre": "Gaseosa Personal",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa personal.",
+  "precio": 3000,
+  "imagen": ""
+},
+{
+  "id": 36,
+  "nombre": "Coca Cola Personal",
+  "categoria": "Bebidas",
+  "descripcion": "Coca Cola personal.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 37,
+  "nombre": "Mr. Tea Personal (Plástico)",
+  "categoria": "Bebidas",
+  "descripcion": "Mr. Tea personal en plástico.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 38,
+  "nombre": "Hit Personal (Plástico)",
+  "categoria": "Bebidas",
+  "descripcion": "Hit personal en plástico.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 39,
+  "nombre": "Gaseosa 1.1/4 L (Vidrio)",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa 1.1/4 litro en vidrio.",
+  "precio": 6000,
+  "imagen": ""
+},
+{
+  "id": 40,
+  "nombre": "Hit Litro (Vidrio)",
+  "categoria": "Bebidas",
+  "descripcion": "Hit de un litro en vidrio.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 41,
+  "nombre": "Gaseosa 1.5L (Plástico Postobón)",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa 1.5 litros en plástico Postobón.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 42,
+  "nombre": "Gaseosa 1.5L (Plástico Coca-Cola)",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa 1.5 litros en plástico Coca-Cola.",
+  "precio": 9000,
+  "imagen": ""
+},
+{
+  "id": 43,
+  "nombre": "Porción de Papa Pequeña",
+  "categoria": "Adicionales",
+  "descripcion": "Porción de papa pequeña.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 44,
+  "nombre": "Porción de Papa Grande",
+  "categoria": "Adicionales",
+  "descripcion": "Porción de papa grande.",
+  "precio": 11000,
+  "imagen": ""
+},
+{
+  "id": 45,
+  "nombre": "Chorizo",
+  "categoria": "Adicionales",
+  "descripcion": "Chorizo.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 46,
+  "nombre": "Salchicha Americana (Zenu)",
+  "categoria": "Adicionales",
+  "descripcion": "Salchicha americana Zenu.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 47,
+  "nombre": "Salchicha Corriente (Zenu)",
+  "categoria": "Adicionales",
+  "descripcion": "Salchicha corriente Zenu.",
+  "precio": 6000,
+  "imagen": ""
+},
+{
+  "id": 48,
+  "nombre": "Tocineta",
+  "categoria": "Adicionales",
+  "descripcion": "Tocineta.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 49,
+  "nombre": "Maíz",
+  "categoria": "Adicionales",
+  "descripcion": "Maíz.",
+  "precio": 5000,
+  "imagen": ""
+},
+{
+  "id": 50,
+  "nombre": "Icopor para Llevar",
+  "categoria": "Adicionales",
+  "descripcion": "Icopor para llevar.",
+  "precio": 1000,
+  "imagen": ""
+}
 ]
