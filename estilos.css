@@ -66,19 +66,27 @@ textarea{
     width:50px;
     height:50px;
 
-    background:
-        linear-gradient(145deg,#ff8c00,#ff3d00);
-
     border-radius:50%;
+
+    overflow:hidden;
 
     display:flex;
     justify-content:center;
     align-items:center;
 
-    font-size:27px;
+    flex-shrink:0;
 
     box-shadow:
         0 0 12px rgba(255,80,0,0.7);
+}
+
+.logo-icono img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
 }
 
 .logo h1{
