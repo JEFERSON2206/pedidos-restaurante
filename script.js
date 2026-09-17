@@ -203,7 +203,7 @@ enviarWhatsApp.addEventListener("click", () => {
     });
 
     const total = carrito.reduce((suma,item) => suma + item.precio * item.cantidad,0);
-    mensaje += "\n💰 *TOTAL: " + formatearPrecio(total) + "*\n";
+    mensaje += "\n💰 *TOTAL SIN DOMICILIO: " + formatearPrecio(total) + "*\n";
     mensaje += "💳 *Pago:* " + metodoPago + "\n";
     if (observaciones) mensaje += "📝 *Observaciones:* " + observaciones + "\n";
     mensaje += "\n¡Gracias por tu pedido! 🙌";
