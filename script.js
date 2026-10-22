@@ -1,4 +1,4 @@
-const NUMERO_WHATSAPP = "573209816813";
+const NUMERO_WHATSAPP = "573173784960";
 
 let productos = [];
 let carrito = [];
