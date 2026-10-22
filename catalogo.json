@@ -1,1354 +1,402 @@
 [
-  {
-    "codigo": "O-ACI-5/8-001",
-    "descripcion": "ABRAZADERA CREMALLERA 5/8 (10-25) Imp."
-  },
-  {
-    "codigo": "O-ACI-3/4-002",
-    "descripcion": "ABRAZADERA CREMALLERA INOXIDABLE 3/4\" (14-27)"
-  },
-  {
-    "codigo": "O-AC-1/2-003",
-    "descripcion": "ABRAZADERA CREMALLERA INOXIDABLE DE 1/2\""
-  },
-  {
-    "codigo": "O-AU-1.1/2-005",
-    "descripcion": "ABRAZADERA EN U 1 1/2\""
-  },
-  {
-    "codigo": "O-AI-006",
-    "descripcion": "ABRAZADERA INDUSTRIAL  Inoxidable 37-40 MM"
-  },
-  {
-    "codigo": "O-ARC-1.1/2-007",
-    "descripcion": "ABRAZADERA RIEL CHANEL 1 1/2\""
-  },
-  {
-    "codigo": "N-AL-1-001",
-    "descripcion": "ACEITE LUBRICANTE NEUMÁTICO UGA01 GALÓN"
-  },
-  {
-    "codigo": "O-AN-1-008",
-    "descripcion": "ACIDO NITRICO"
-  },
-  {
-    "codigo": "H-AR2-3/4.1/2-088",
-    "descripcion": "Acop R2 3/4 x 1/2 M NPT"
-  },
-  {
-    "codigo": "H-AR2-3/4.3/4-089",
-    "descripcion": "Acop R2 3/4 x 3/4 M NPT"
-  },
-  {
-    "codigo": "H-AI-1.1/2-002",
-    "descripcion": "Acople en Aluminio 1 1/2\" Tipo A"
-  },
-  {
-    "codigo": "H-AIBCT-004",
-    "descripcion": "ACOPLE PARA IBC EN TEFLON"
-  },
-  {
-    "codigo": "N-AVI-40.3/4.210-002",
-    "descripcion": "ACTUADOR DE 40 + VALVULA DE 3/4 + INDICADOR 210N"
-  },
-  {
-    "codigo": "N-AR-32-003",
-    "descripcion": "ACTUADOR ROTATIVO 32 MM D.E GIRO 90"
-  },
-  {
-    "codigo": "H-ANHH-1/2-090",
-    "descripcion": "Adap 1/2 NPT HHH"
-  },
-  {
-    "codigo": "H-AM-1/2.1/2-091",
-    "descripcion": "Adap 1/2 NPT M x 1/2 NPT M"
-  },
-  {
-    "codigo": "H-AM-3/4.3/4-092",
-    "descripcion": "Adap 3/4 NPT M x 3/4 NPT M"
-  },
-  {
-    "codigo": "H-ATH-3/4-093",
-    "descripcion": "Adap TEE 3/4 NPT HHH"
-  },
-  {
-    "codigo": "H-AHIM-1/2-019",
-    "descripcion": "ADAPTADOR HEMBRA 1/2\" INSERTO METALICO VERDE POLIPROPILENO"
-  },
-  {
-    "codigo": "H-AHIM-3/4-017",
-    "descripcion": "ADAPTADOR HEMBRA 3/4\" INSERTO METALICO VERDE POLIPROPILENO"
-  },
-  {
-    "codigo": "H-AHL-1.1/2-009",
-    "descripcion": "ADAPTADOR HEMBRA LISO PVC 1 1/2\""
-  },
-  {
-    "codigo": "H-AHL-1-005",
-    "descripcion": "ADAPTADOR HEMBRA LISO PVC 1\""
-  },
-  {
-    "codigo": "H-AHR-1.1/2-010",
-    "descripcion": "ADAPTADOR HEMBRA ROSCADO PVC 1 1/2\""
-  },
-  {
-    "codigo": "H-AHR-1-006",
-    "descripcion": "ADAPTADOR HEMBRA ROSCADO PVC 1\""
-  },
-  {
-    "codigo": "H-AH3/4-M1/2",
-    "descripcion": "ADAPTADOR HEXAGONAL H 3/4 M1/2"
-  },
-  {
-    "codigo": "H-AMIM-1/2-020",
-    "descripcion": "ADAPTADOR MACHO 1/2\" POLIPROPILENO CON INSERTO  METALICO  VERDE"
-  },
-  {
-  "codigo": "H-AMIM-1/2.3/4-103",
-  "descripcion": "ADAPTADOR MACHO 1/2\" X 3/4\" CON INSERTO METÁLICO POLIPROPILENO"
+   {
+  "id": 1,
+  "nombre": "Hamburguesa Corriente",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Jamón, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 16000,
+  "imagen": "img/productos/h.corriente.jpeg"
 },
-  {
-    "codigo": "H-AMIM-3/4-018",
-    "descripcion": "ADAPTADOR MACHO 3/4\" POLIPROPILENO CON INSERTO  METALICO  VERDE"
-  },
-  {
-    "codigo": "H-AML-1/2-011",
-    "descripcion": "ADAPTADOR MACHO LISO PVC 1 1/2\""
-  },
-  {
-    "codigo": "H-AML-1-007",
-    "descripcion": "ADAPTADOR MACHO LISO PVC 1\""
-  },
-  {
-    "codigo": "H-AML-2-015",
-    "descripcion": "ADAPTADOR MACHO LISO PVC 2\""
-  },
-  {
-    "codigo": "H-AMR-1.1/2-012",
-    "descripcion": "ADAPTADOR MACHO ROSCADO PVC 1 1/2\""
-  },
-  {
-    "codigo": "H-AMR-1-008",
-    "descripcion": "ADAPTADOR MACHO ROSCADO PVC 1\""
-  },
-  {
-    "codigo": "H-AMR-2-016",
-    "descripcion": "ADAPTADOR MACHO ROSCADO PVC 2\""
-  },
-  {
-    "codigo": "O-A-009",
-    "descripcion": "AEROSOL"
-  },
-  {
-    "codigo": "O-AP-10-016",
-    "descripcion": "Amarre Plastico 10 Cm"
-  },
-  {
-    "codigo": "O-AP-50-017",
-    "descripcion": "Amarre plastico 50 cm"
-  },
-  {
-    "codigo": "E-A-1-001",
-    "descripcion": "Autonic ct6 1p"
-  },
-  {
-    "codigo": "E-BPC-0,08.0,10.2,44-002",
-    "descripcion": "BANDEJA PORTA CABLE 0,08 MT X 0,10 MT X 2,44 MT"
-  },
-  {
-    "codigo": "E-BPCE-20.8.40-076",
-    "descripcion": "BANDEJA PORTACABLE ESCALERA 20X8X240CM"
-  },
-  {
-  "codigo": "E-BPM-10.5.2-102",
-  "descripcion": "BANDEJA DE MALLA 10 CM X 5 CM X 2 M CON UNIONES"
-  },
-  {
-    "codigo": "O-BMC-095",
-    "descripcion": "BASE METALICA PARA COFRE"
-  },
-  {
-    "codigo": "O-BMVS-101",
-    "descripcion": "BASE METALICA PARA VASOS"
-  },
-  {
-    "codigo": "N-B-220-005",
-    "descripcion": "BOBINA 220V"
-  },
-  {
-    "codigo": "O-E-045",
-    "descripcion": "bolsa de estopa"
-  },
-  {
-    "codigo": "N-BF-1/2-006",
-    "descripcion": "Bomba fluimack 1/2"
-  },
-  {
-    "codigo": "N-VPN-1/2-066",
-    "descripcion": "VÁLVULA PISTÓN NEUMÁTICA 1/2\" NPT"
-  },
-  {
-    "codigo": "N-BF-1/4-007",
-    "descripcion": "Bomba fluimack 1/4"
-  },
-  {
-    "codigo": "N-BA-1/2 008",
-    "descripcion": "BOMBA NEUMATICA ARO DE 1/2"
-  },
-  {
-    "codigo": "N-BND-1/2-009",
-    "descripcion": "BOMBA NEUMATICA DE DIAFRAGMA DE 1/2\""
-  },
-  {
-    "codigo": "E-B-2,5-077",
-    "descripcion": "BORENRA 2.5mm"
-  },
-  {
-    "codigo": "E-BPF-004",
-    "descripcion": "BORNERA PORTA FUSIBLE"
-  },
-  {
-    "codigo": "O-B-25-096",
-    "descripcion": "BOTELLA DE 25 LTS EN ACERO INOXIDABLE"
-  },
-  {
-    "codigo": "O-B-2-024",
-    "descripcion": "BROCHA 2\""
-  },
-  {
-    "codigo": "E-BPP-2.1.1/2-005",
-    "descripcion": "BUJE PVC PRESION 2\" X 1 1/2\""
-  },
-  {
-    "codigo": "H-BG-1/2.3/8-095",
-    "descripcion": "BUSHING GALVANIZADO 1/2X3/8\""
-  },
-  {
-    "codigo": "H-BI-2.3/4-021",
-    "descripcion": "BUSHING INOXIDABLE  2\" x 3/4\""
-  },
-  {
-    "codigo": "H-BI-1.1/2.3/4-094",
-    "descripcion": "BUSHING INOXIDABLE 1 1/2\" X 3/4\""
-  },
-  {
-    "codigo": "H-BI-1/2.1/4-022",
-    "descripcion": "BUSHING INOXIDABLE 1/2\" X 1/4\""
-  },
-  {
-    "codigo": "H-BI-1/2.3/8-023",
-    "descripcion": "BUSHING INOXIDABLE 1/2\" X 3/8\""
-  },
-  {
-    "codigo": "H-BI-2.1.1/2-024",
-    "descripcion": "BUSHING INOXIDABLE 2 X 1 1/2\""
-  },
-  {
-    "codigo": "H-BI-3/4.1/2-025",
-    "descripcion": "BUSHING INOXIDABLE 3/4 X 1/2"
-  },
-  {
-    "codigo": "H-ATH-3/4.3/4-096",
-    "descripcion": "Bushing Inoxidable 3/4\" X 3/8\""
-  },
-  {
-    "codigo": "H-BI-3/8.1/4-026",
-    "descripcion": "BUSHING INOXIDABLE 3/8\" X 1/4\""
-  },
-  {
-    "codigo": "E-BRE-006",
-    "descripcion": "Buzzer rojo EBC"
-  },
-  {
-    "codigo": "E-CA-12.18-082",
-    "descripcion": "Cable apantallado 12 x 18"
-  },
-  {
-    "codigo": "E-CA-12.18-007",
-    "descripcion": "CABLE APANTALLADO 12X18"
-  },
-  {
-    "codigo": "E-CA-12.22-008",
-    "descripcion": "CABLE APANTALLADO 12X22"
-  },
-  {
-    "codigo": "E-CA-4.20-084",
-    "descripcion": "Cable apantallado 4 x 20"
-  },
-  {
-    "codigo": "E-CA-6.18-081",
-    "descripcion": "Cable apantallado 6 x 18"
-  },
-  {
-    "codigo": "E-CA-12.20-083",
-    "descripcion": "Cable control 12 x 20"
-  },
-  {
-    "codigo": "E-CC-2.18-085",
-    "descripcion": "Cable control 2 x 18"
-  },
-  {
-    "codigo": "E-CC-4.18-009",
-    "descripcion": "Cable control 4 lineas calibre 18"
-  },
-  {
-    "codigo": "E-CE-2.18-010",
-    "descripcion": "Cable encauchetado 2x18"
-  },
-  {
-    "codigo": "E-CE-4.18-011",
-    "descripcion": "Cable encauchetado 4 x 18"
-  },
-  {
-    "codigo": "E-CE-4.20-012",
-    "descripcion": "CABLE ENCAUCHETADO 4X20"
-  },
-  {
-    "codigo": "E-CI-18.18-013",
-    "descripcion": "CABLE INSTRUMENTACION 18 X 18 AWG"
-  },
-  {
-    "codigo": "E-CI-4.18-014",
-    "descripcion": "CABLE INSTRUMENTACION 4 X 18 CENTELSA"
-  },
-  {
-    "codigo": "E-CH-2-015",
-    "descripcion": "Caja 2 huecos"
-  },
-  {
-    "codigo": "E-CH-4-016",
-    "descripcion": "Caja 4 huecos"
-  },
-  {
-    "codigo": "E-CDE-4-017",
-    "descripcion": "CAJA DE EMPALME SS-4C, caja de empalme, 4 celdas, SS"
-  },
-  {
-    "codigo": "E-CE211-101",
-    "descripcion": "CAJA ELECTRICA 211 PARA INTERIORES"
-  },
-  {
-    "codigo": "E-CP-190.150.70-019",
-    "descripcion": "CAJA PLASTICA 190*150*70MM GRIS"
-  },
-  {
-    "codigo": "E-CP-207.284.120-020",
-    "descripcion": "CAJA PLASTICA 207 X 284 X 120 TABLEPAST"
-  },
-  {
-    "codigo": "E-CP-230.180.100-018",
-    "descripcion": "CAJA PLASTICA 230X180X100 mm"
-  },
-  {
-    "codigo": "E-CP-207.284.120-021",
-    "descripcion": "CAJAS SUMATORIAS"
-  },
-  {
-    "codigo": "E-CR-40.40-021",
-    "descripcion": "CANALETA RANURADA 40X40 GRIS 2MTS"
-  },
-  {
-    "codigo": "E-CCM-100-022",
-    "descripcion": "CELDA DE CARGA MONOBLOQUE 100kg celda C3"
-  },
-  {
-    "codigo": "E-CCM-200-023",
-    "descripcion": "Celda de carga sfp 200kg"
-  },
-  {
-    "codigo": "E-CMDA-024",
-    "descripcion": "CENTRO DE MANDO DOBLE ABIERTOS"
-  },
-  {
-    "codigo": "O-CA-025",
-    "descripcion": "CEPILLO ACERO MP TOOL"
-  },
-  {
-    "codigo": "O-CG-026",
-    "descripcion": "CEPILLO GRATA DE MANO MANGO PLASTICO"
-  },
-  {
-    "codigo": "H-CA-014-3/8",
-    "descripcion": "CHAZO ANCLAJE 3/8"
-  },
-  {
-    "codigo": "O-CE-3/8.2-027",
-    "descripcion": "CHAZO EXPANSIVO 3/8\" X 2\""
-  },
-  {
-  "codigo": "O-CE-3/8.3-031",
-  "descripcion": "CHAZO EXPANSIVO 3/8\" X 3\""
-  },
-  {
-    "codigo": "O-CE-5/16.1.1/2-028",
-    "descripcion": "CHAZO EXPANSIVO 5/16 X 1 1/2\""
-  },
-  {
-    "codigo": "O-CP-1/4-029",
-    "descripcion": "CHAZO PUNTILLA 1/4\""
-  },
-  {
-    "codigo": "O-CP-5/16-030",
-    "descripcion": "CHAZOS PLASTICOS 5/16"
-  },
-  {
-    "codigo": "H-CHB-1/2-027",
-    "descripcion": "CHEQUE HIDRO BRONCE 1/2"
-  },
-  {
-    "codigo": "H-CHB-3/4-028",
-    "descripcion": "CHEQUE HIDRO BRONCE 3/4"
-  },
-  {
-    "codigo": "O-CDF-031",
-    "descripcion": "CINTA DOBLE FAZ"
-  },
-  {
-    "codigo": "O-CE-1-032",
-    "descripcion": "CINTA ENMASCARAR 1\""
-  },
-  {
-    "codigo": "O-CE-1/2-033",
-    "descripcion": "CINTA ENMASCARAR 1/2\""
-  },
-  {
-    "codigo": "O-CE-3/4-034",
-    "descripcion": "CINTA ENMASCARAR 3/4"
-  },
-  {
-    "codigo": "H-RCF-3/4-067",
-    "descripcion": "CINTA TEFLON INDUSTRIAL 3/4\" X 50 MTS"
-  },
-  {
-    "codigo": "E-CL-15-025",
-    "descripcion": "Clavija levinton 15 amp"
-  },
-  {
-  "codigo": "E-CLM-15-026",
-  "descripcion": "CLAVIJA LEVITON 15 AMP MACHO"
-  },
-  {
-  "codigo": "E-CLH-15-027",
-  "descripcion": "CLAVIJA LEVITON 15 AMP HEMBRA"
-  },
-  {
-    "codigo": "H-CCI-1/2-029",
-    "descripcion": "CODO CALLE INOXIDABLE 1/2\""
-  },
-  {
-    "codigo": "H-CCI-1/4-031",
-    "descripcion": "CODO CALLE INOXIDABLE 1/4\""
-  },
-  {
-    "codigo": "H-CCI-3/4-030",
-    "descripcion": "CODO CALLE INOXIDABLE 3/4\""
-  },
-  {
-    "codigo": "H-CPP-1/2-032",
-    "descripcion": "CODO POLIPROPILENO 1/2\" VERDE"
-  },
-  {
-    "codigo": "H-CPP-3/4-033",
-    "descripcion": "CODO POLIPROPILENO 3/4\" VERDE"
-  },
-  {
-    "codigo": "H-CP-1.1/2-034",
-    "descripcion": "CODO PVC 1,1/2\""
-  },
-  {
-    "codigo": "H-CP-1/2-035",
-    "descripcion": "CODO PVC 1/2"
-  },
-  {
-    "codigo": "H-CP-3/4-036",
-    "descripcion": "CODO PVC 3/4"
-  },
-  {
-    "codigo": "H-CRI-1-039",
-    "descripcion": "CODO ROSCADO INOXIDABLE 1\""
-  },
-  {
-    "codigo": "H-CB-1/2.3/4-088",
-    "descripcion": "COPA BRONCE 1/2\" X 3/4\""
-  },
-  {
-    "codigo": "H-CRI-1/2-037",
-    "descripcion": "CODO ROSCADO INOXIDABLE 1/2\""
-  },
-  {
-    "codigo": "H-CRI-3/4-038",
-    "descripcion": "CODO ROSCADO INOXIDABLE 3/4\""
-  },
-  {
-    "codigo": "E-CM-20.15.15-026",
-    "descripcion": "Cofre Metalico 20 X 15 X 15"
-  },
-  {
-    "codigo": "E-CM-20.20.10-027",
-    "descripcion": "Cofre Metalico 20 X 20 X 10"
-  },
-  {
-    "codigo": "E-CMDFTE-1.1.03-028",
-    "descripcion": "COFRE METALICO DOBLE FONDO TIPO EXTERIOR 1000x1000x300mm."
-  },
-  {
-    "codigo": "E-CMDFTE-1.08.03-029",
-    "descripcion": "COFRE METALICO DOBLE FONDO TIPO EXTERIOR 1000x800x300mm."
-  },
-  {
-    "codigo": "E-CMFETI-1.1,6.06-030",
-    "descripcion": "COFRE METALICO FABRICACION ESPECIAL TIPO INTERIOR 1000x1600x600mm RAL7035 CON BASE EN ANGULO DE 20cms"
-  },
-  {
-    "codigo": "E-CP-031",
-    "descripcion": "Cofre Plastico"
-  },
-  {
-    "codigo": "O-CFE-3/4-035",
-    "descripcion": "COLECTOR DE FLUIDO DE ENTRADA, BBA DIAFRAGMA DE 3/4\""
-  },
-  {
-    "codigo": "O-DF-043",
-    "descripcion": "DISCO FLAP"
-  },
-  {
-    "codigo": "E-CR-1-032",
-    "descripcion": "CONECTOR RECTO 1 LT"
-  },
-  {
-    "codigo": "E-CR-1/2-033",
-    "descripcion": "CONECTOR RECTO 1/2 LT"
-  },
-  {
-    "codigo": "E-CR-3/4-034",
-    "descripcion": "CONECTOR RECTO 3/4 LT"
-  },
-  {
-    "codigo": "E-CCH-12-035",
-    "descripcion": "Contactor chint 12 amp"
-  },
-  {
-    "codigo": "H-CH-1/2.3/4",
-    "descripcion": "COPA ROSCADO HEXAGONAL 1/2 X 3/4"
-  },
-  {
-    "codigo": "E-CLT-1-036",
-    "descripcion": "CORAZA 1 LIQUID-TIGTH COR ACERO"
-  },
-  {
-    "codigo": "E-CLT-3/4-037",
-    "descripcion": "CORAZA 3/4 LIQUID TIGHT"
-  },
-  {
-    "codigo": "E-CA-3/4-038",
-    "descripcion": "CORAZA AMERICANA 3/4"
-  },
-  {
-    "codigo": "O-DPP-036",
-    "descripcion": "DESTORES JG. 2 PIEZAS PALA Y ESTRELLA INDUSTRIAL"
-  },
-  {
-    "codigo": "O-DE-1/8.4-038",
-    "descripcion": "DESTORNILLADOR ESTRELLA 1/8 X 4\" PERILLERO"
-  },
-  {
-    "codigo": "O-DP-1/8-4-037",
-    "descripcion": "DESTORNILLADOR PALA 1/8 X 4\" PERILLERO"
-  },
-  {
-    "codigo": "O-DC-4.1/2-039",
-    "descripcion": "DISCO DE CORTE 4 1/2 X 0,45 X 7/8 BOSH"
-  },
-  {
-    "codigo": "O-DC-1/2-040",
-    "descripcion": "DISCO DE CORTE DEWALT 4 1/2"
-  },
-  {
-    "codigo": "O-DFG-100-041",
-    "descripcion": "DISCO FLAP GRANO 100"
-  },
-  {
-    "codigo": "O-DFG-60-042",
-    "descripcion": "DISCO FLAP GRANO 60"
-  },
-  {
-    "codigo": "N-EV-5:2.1/4-067",
-    "descripcion": "ELECTRO VALVULA 3:2 X 1/4\" A 110 V"
-  },
-  {
-    "codigo": "N-EV-5:2.1/4-066",
-    "descripcion": "ELECTRO VALVULA 5:2 X 1/4\" A 110 V"
-  },
-  {
-    "codigo": "O-EBN-1.1/2-043",
-    "descripcion": "EMPAQUE BRIDA NEOPRENO 1 1/2\""
-  },
-  {
-    "codigo": "O-EBN-1-092",
-    "descripcion": "Empaque Brida Neopreno 1\""
-  },
-  {
-    "codigo": "O-EBN-2-093",
-    "descripcion": "EMPAQUE BRIDA NEOPRENO 2\""
-  },
-  {
-    "codigo": "O-E-044",
-    "descripcion": "ESCOBA"
-  },
-  {
-    "codigo": "O-ET-2",
-    "descripcion": "ESMALTE TIPO 2"
-  },
-  {
-    "codigo": "O-EMP-2-045",
-    "descripcion": "ESPATULA MANGO PLASTICO 2\""
-  },
-  {
-    "codigo": "H-EB-1/2.1/2-042",
-    "descripcion": "ESPIGOS BRONCE 1/2 X 1/2"
-  },
-  {
-    "codigo": "H-EB-1/2.3/4-041",
-    "descripcion": "ESPIGOS BRONCE 1/2 X 3/4"
-  },
-  {
-    "codigo": "H-EB-3/4.3/4-040",
-    "descripcion": "ESPIGOS BRONCE 3/4 X 3/4"
-  },
-  {
-    "codigo": "E-E-1000-039",
-    "descripcion": "Estabilizador 1000w"
-  },
-  {
-    "codigo": "E-EM-040",
-    "descripcion": "Estación de Mando"
-  },
-  {
-    "codigo": "H-FYIR-1,1/2-044",
-    "descripcion": "FILTRO EN Y INOX ROSCA VARIOS 1 1/2\""
-  },
-  {
-    "codigo": "H-FYIR-3/4-043",
-    "descripcion": "FILTRO EN Y INOX ROSCA VARIOS 3/4\""
-  },
-  {
-    "codigo": "H-FYI-1/2-097",
-    "descripcion": "Filtro en Y Inoxidable 1/2\""
-  },
-  {
-    "codigo": "H-FR-1/4-098",
-    "descripcion": "FILTRO REGULADOR 1/4\""
-  },
-  {
-    "codigo": "H-FBM-045",
-    "descripcion": "FLUJOMETRO BAYER METER"
-  },
-  {
-    "codigo": "E-FSW-24.50-041",
-    "descripcion": "Fuente SW 24V DC 50 W"
-  },
-  {
-    "codigo": "E-FV-0,5-042",
-    "descripcion": "FUSIBLE VIDRIO 0,5 AMP"
-  },
-  {
-    "codigo": "O-GG-1",
-    "descripcion": "GLICERINA"
-  },
-  {
-    "codigo": "O-G-046",
-    "descripcion": "GRASA"
-  },
-  {
-    "codigo": "O-GM-048",
-    "descripcion": "GRATA CON MANGO"
-  },
-  {
-    "codigo": "O-GNL-049",
-    "descripcion": "GUANTE NITRILO LATEX"
-  },
-  {
-    "codigo": "O-GA-050",
-    "descripcion": "GUAYA ACERO X MTS"
-  },
-  {
-    "codigo": "N-IPA-063",
-    "descripcion": "INDICADOR DE POSICION PARA ACTUADOR APL 210N"
-  },
-  {
-    "codigo": "E-IT-044",
-    "descripcion": "INDICADOR TRANX-A SERIAL: CS231767-CS231648"
-  },
-  {
-    "codigo": "E-IL-4-045",
-    "descripcion": "Interruptor Luminoso 4 Patas"
-  },
-  {
-    "codigo": "O-LPVC-070",
-    "descripcion": "LIMPIADOR PVC X 1/4 GLN"
-  },
-  {
-    "codigo": "O-LM-19-090",
-    "descripcion": "LLAVE  MIXTA 19mm"
-  },
-  {
-    "codigo": "O-LBJP-076",
-    "descripcion": "LLAVE BRISTOL JUEGO PULGADAS"
-  },
-  {
-    "codigo": "O-LBJM-075",
-    "descripcion": "LLAVE BRISTOL MILIMETRICA"
-  },
-  {
-    "codigo": "O-LC-1/2-078",
-    "descripcion": "LLAVE COMBINADA 1/2"
-  },
-  {
-    "codigo": "O-LC-10-080",
-    "descripcion": "LLAVE COMBINADA 10MM"
-  },
-  {
-    "codigo": "O-LC-11-081",
-    "descripcion": "LLAVE COMBINADA 11MM"
-  },
-  {
-    "codigo": "O-LC-13-082",
-    "descripcion": "LLAVE COMBINADA 13MM"
-  },
-  {
-    "codigo": "O-LC-14-084",
-    "descripcion": "LLAVE COMBINADA 14MM"
-  },
-  {
-    "codigo": "O-LC-7/16-085",
-    "descripcion": "LLAVE COMBINADA 7/16"
-  },
-  {
-    "codigo": "O-LC-8-079",
-    "descripcion": "LLAVE COMBINADA 8MM"
-  },
-  {
-    "codigo": "O-LC-9/16-083",
-    "descripcion": "LLAVE COMBINADA 9/16"
-  },
-  {
-    "codigo": "O-LCC-6.3/8.1/2-086",
-    "descripcion": "LLAVE COPA CORTO 6 PUNTAS CTE 3/8\" X 1/2\""
-  },
-  {
-    "codigo": "O-LCIC-1/2-087",
-    "descripcion": "LLAVE COPA IMPACTO CORTA CTE 1/2\" JGO 10 MM A 24 MM 10PZ"
-  },
-  {
-    "codigo": "O-LIE-1050.1/2.-051",
-    "descripcion": "LLAVE DE IMPACTO ELECTRICA 1050W CTE.1/2\" TORQ 550 Nm"
-  },
-  {
-    "codigo": "O-LTA-14-088",
-    "descripcion": "LLAVE DE TUBO EN ALUMINIO 14\""
-  },
-  {
-    "codigo": "O-LTP-14-089",
-    "descripcion": "LLAVE PARA TUBO TIPO PESADO 14\""
-  },
-  {
-    "codigo": "O-LTC-10-072",
-    "descripcion": "LLAVE T COPA 10MM"
-  },
-  {
-    "codigo": "O-LTC-11-073",
-    "descripcion": "LLAVE T COPA 11MM"
-  },
-  {
-    "codigo": "O-LTC-13-074",
-    "descripcion": "LLAVE T COPA 13MM"
-  },
-  {
-    "codigo": "O-LTC-8-071",
-    "descripcion": "LLAVE T COPA 8MM"
-  },
-  {
-    "codigo": "O-M-2-052",
-    "descripcion": "MACETA 2 LIBRAS M/MADERA PULIDO"
-  },
-  {
-    "codigo": "H-MN-1/2-047",
-    "descripcion": "MAGUERA DE NIVEL 1/2"
-  },
-  {
-    "codigo": "H-MN-1/2-048",
-    "descripcion": "MAGUERA DE NIVEL 3/4"
-  },
-  {
-    "codigo": "H-MN1/2-101",
-    "descripcion": "MANGUERA DE NIVEL DE 1/2"
-  },
-  {
-    "codigo": "H-MN3/4-102",
-    "descripcion": "MANGUERA DE NIVEL DE 3/4"
-  },
-  {
-    "codigo": "N-MN-3/8-018",
-    "descripcion": "MANGUERA NEUMATICA 3/8 TUBING"
-  },
-  {
-    "codigo": "N-MN-8MM-017",
-    "descripcion": "MANGUERA NEUMATICA 8MM  TUBING"
-  },
-  {
-    "codigo": "H-MBP-20M-049",
-    "descripcion": "Manguera para bomba peristáltica en EPDM, 20 MMM"
-  },
-  {
-    "codigo": "H-MBP-20H-050",
-    "descripcion": "Manguera para bomba peristáltica en NBR H20"
-  },
-  {
-    "codigo": "H-MBP-25H-051",
-    "descripcion": "Manguera para bomba peristáltica en NBR H25"
-  },
-  {
-    "codigo": "H-MPAA-1/2-052",
-    "descripcion": "Manguera PVC Alma de Acero 1 1/2\""
-  },
-  {
-    "codigo": "H-MPAA-2-053",
-    "descripcion": "Manguera PVC Alma de Acero 2\""
-  },
-  {
-    "codigo": "H-MSF-3/4-056",
-    "descripcion": "MANGUERA SUPER FLEX 3/4\""
-  },
-  {
-    "codigo": "N-MDCE-5:2.1/4-020",
-    "descripcion": "MANIFOLD DOCE ESTACIONES 5:2 1/4"
-  },
-  {
-    "codigo": "N-MDE-3:2.1/4-101",
-    "descripcion": "MANIFOLD DOS ESTACIONES 3:2 1/4"
-  },
-  {
-    "codigo": "N-MDE-5:2.1/4-022",
-    "descripcion": "MANIFOLD DOS ESTACIONES 5:2 1/4"
-  },
-  {
-    "codigo": "N-MTE-5:2.1/4-024",
-    "descripcion": "MANIFOLD TRES ESTACIONES 5:2 1/4"
-  },
-  {
-    "codigo": "O-MM-053",
-    "descripcion": "MARCO MINI PARA SEGUETA"
-  },
-  {
-    "codigo": "O-MC-16-054",
-    "descripcion": "MARTILLO DE CAUCHO 16 OZ MAGO DE MADERA"
-  },
-  {
-    "codigo": "N-MR-1/4-025",
-    "descripcion": "MINI REGULADOR DE 1/4\""
-  },
-  {
-    "codigo": "O-MPH-055",
-    "descripcion": "MORRAL PARA HERRAMIENTAS"
-  },
-  {
-    "codigo": "E-MP-2-101",
-    "descripcion": "MULETILLA 2 POSICIONES"
-  },
-  {
-    "codigo": "E-MP-3-047",
-    "descripcion": "MULETILLA 3 POSICIONES"
-  },
-  {
-    "codigo": "E-MD-048",
-    "descripcion": "MULTIMETRO DIGITAL"
-  },
-  {
-    "codigo": "H-NI-1/2.3/4-3-073",
-    "descripcion": "NIPLE  1/2X3/4 BRONCE"
-  },
-  {
-    "codigo": "H-NI-1/2.3/4-1-101",
-    "descripcion": "NIPLE 1/2X1/2  BRONCE HEXAGONAL"
-  },
-  {
-    "codigo": "H-NI-1/2.3/4-1-075",
-    "descripcion": "NIPLE 1/2X1/2  BRONCE"
-  },
-  {
-    "codigo": "N-NN-1/4-1/4",
-    "descripcion": "NIPLE BRONCE 1/4"
-  },
-  {
-    "codigo": "H-NI-1/2.3/4-3-077",
-    "descripcion": "NIPLE D1/2X1/2 LON3\" INOX"
-  },
-  {
-    "codigo": "H-NI-2/2.3/4-2-076",
-    "descripcion": "NIPLE D1/2X1/2LON2\"  INOX"
-  },
-  {
-    "codigo": "H-NI-3/4.3/4-1-070",
-    "descripcion": "NIPLE D3/4X3/4 LON1\" BRONCE"
-  },
-  {
-    "codigo": "H-NI-3/4.3/4-2-071",
-    "descripcion": "NIPLE D3/4X3/4 LON2\"  INOX"
-  },
-  {
-    "codigo": "H-NI-3/4.3/4-3-072",
-    "descripcion": "NIPLE D3/4X3/4 LON3\" INOX"
-  },
-  {
-    "codigo": "H-NI-1/2.1/2.3-062",
-    "descripcion": "NIPLE INOXIDABLE 1 X 1/2\" X 3\""
-  },
-  {
-    "codigo": "H-NIRM-2.15.2.-066",
-    "descripcion": "NIPLE INOXIDABLE 2” x 15 Cms - 2 ROSCAS MACHO"
-  },
-  {
-    "codigo": "E-PPH-18-073",
-    "descripcion": "PAQUETE PIN HUECO #18"
-  },
-  {
-    "codigo": "E-PPH-20-074",
-    "descripcion": "PAQUETE PIN HUECO #20"
-  },
-  {
-    "codigo": "N-PM-3/8-026",
-    "descripcion": "PASAMURO 3/8 OD"
-  },
-  {
-    "codigo": "N-PM-1/2-027",
-    "descripcion": "PASAMUROS DE 1/2"
-  },
-  {
-    "codigo": "N-P-3/8-061",
-    "descripcion": "PASAMUROS DE 3/8"
-  },
-  {
-    "codigo": "E-PLR-110-050",
-    "descripcion": "PILOTO LED ROJO  110V"
-  },
-  {
-  "codigo": "E-PLV-110-051",
-  "descripcion": "PILOTO LED VERDE 110V"
-  },
-  {
-    "codigo": "O-PIVE-1G",
-    "descripcion": "PINTURA VERDE ESMALTE GALON"
-  },
-  {
-    "codigo": "E-POT-1AM",
-    "descripcion": "POTENCIOMETRO 1 AM"
-  },
-  {
-    "codigo": "E-P-13.5",
-    "descripcion": "PRENSA 13.5"
-  },
-  {
-    "codigo": "E-PE-29",
-    "descripcion": "prensa estopa pg29"
-  },
-  {
-    "codigo": "E-PE-13,5-051",
-    "descripcion": "PRENSAESTOPA 13.5 mm"
-  },
-  {
-    "codigo": "E-PEP-PG13-052",
-    "descripcion": "Prensaestopa Plastica PG13"
-  },
-  {
-    "codigo": "E-PEP-PG16-053",
-    "descripcion": "Prensaestopa Plastica PG16"
-  },
-  {
-    "codigo": "E-PEP-PG11-054",
-    "descripcion": "Prensaestopas Plásticas PG12"
-  },
-  {
-    "codigo": "E-PSM-055",
-    "descripcion": "Programador semanal maxtech"
-  },
-  {
-    "codigo": "E-PV-110-075",
-    "descripcion": "PROTECTOR DE VOLTAJE A 110V"
-  },
-  {
-    "codigo": "E-PSS-056",
-    "descripcion": "PULSADOR STAR STOP"
-  },
-  {
-    "codigo": "N-PAT-115-028",
-    "descripcion": "PURGA AUT TEMPORIZADA 115VAC"
-  },
-  {
-    "codigo": "N-R-3/8.1/2-029",
-    "descripcion": "RACOR 3/8 OD x 1/2 NPT M Rap"
-  },
-  {
-    "codigo": "N-RC-1/2.1/2-030",
-    "descripcion": "RACOR CODO 1/2 NPT X 1/2 OD"
-  },
-  {
-    "codigo": "N-RC-1/4.3/8-043",
-    "descripcion": "RACOR CODO 1/4 NPT X 3/8"
-  },
-  {
-    "codigo": "N-RC-1/4.8-042",
-    "descripcion": "RACOR CODO 1/4 NPT X 8MM"
-  },
-  {
-    "codigo": "N-RC-1/8.8-041",
-    "descripcion": "RACOR CODO 1/8 NPT X 8 MM OD"
-  },
-  {
-    "codigo": "N-RR-1/4.3/8-040",
-    "descripcion": "RACOR RECTO 1/4X3/8"
-  },
-  {
-    "codigo": "N-RR-1/8.8-041",
-    "descripcion": "RACOR RECTO 1/8 NPT X 8 MM OD"
-  },
-  {
-    "codigo": "E-RV-110-058",
-    "descripcion": "REGULADOR DE VOLTAJE 110V"
-  },
-  {
-    "codigo": "N-R-1/2-043",
-    "descripcion": "REGULADOR NEUMATICO CON FILTRO + MANOMETRO, CON E/S DE 1/2\""
-  },
-  {
-    "codigo": "E-RP-8-061",
-    "descripcion": "Rele8 pines"
-  },
-  {
-    "codigo": "E-CMS-NA-086",
-    "descripcion": "CAJA DE MANDO SENCILLO NA"
-  },
-  {
-    "codigo": "E-RCT-4.2-062",
-    "descripcion": "RIEL CHANNEL TROQUELADO 4X2 CAL 16 (3MT)"
-  },
-  {
-    "codigo": "E-ROP-100",
-    "descripcion": "RIEL OMEGA  PERFORADO"
-  },
-  {
-    "codigo": "O-R-9-056",
-    "descripcion": "RODILLO 9\""
-  },
-  {
-    "codigo": "O-RE-057",
-    "descripcion": "RODILLO EPOXICO"
-  },
-  {
-    "codigo": "O-PNE-1G-062",
-    "descripcion": "PINTURA NEGRA ESMALTE"
-  },
-  {
-    "codigo": "O-PLC-1G-063",
-    "descripcion": "PINTURA LACA PARA COFRE, GALÓN"
-  },
-  {
-    "codigo": "O-RF-3-056",
-    "descripcion": "RODILLO FELPA 3\""
-  },
-  {
-    "codigo": "O-RF-4-058",
-    "descripcion": "RODILLO FELPA 4\""
-  },
-  {
-    "codigo": "O-RF-6-059",
-    "descripcion": "RODILLO FELPA 6\""
-  },
-  {
-    "codigo": "O-SH-060",
-    "descripcion": "SEGUETA HOJA"
-  },
-  {
-    "codigo": "H-SPP-3/4-068",
-    "descripcion": "SEMICODO 3/4 POLIPROPILENO VERDE FUSION"
-  },
-  {
-    "codigo": "N-SC-1/2-043",
-    "descripcion": "SEPARADOR CICLONICO 1/2"
-  },
-  {
-    "codigo": "N-SB-1/4-044",
-    "descripcion": "SILENCIADOR DE BRONCE 1/4"
-  },
-  {
-    "codigo": "N-SB-1/8-045",
-    "descripcion": "SILENCIADOR DE BRONCE 1/8"
-  },
-  {
-    "codigo": "N-SB-3/8-046",
-    "descripcion": "SILENCIADOR DE BRONCE 3/8"
-  },
-  {
-    "codigo": "N-SP-1/4-065",
-    "descripcion": "SILENCIADOR PLANO 1/4\""
-  },
-  {
-    "codigo": "O-S-061",
-    "descripcion": "Sleeve (camisa bomba peristáltica)"
-  },
-  {
-    "codigo": "H-SPVC-069",
-    "descripcion": "SOLDADURA PVC"
-  },
-  {
-    "codigo": "O-SL-094",
-    "descripcion": "Soporte en L"
-  },
-  {
-    "codigo": "O-SU-062",
-    "descripcion": "Soporte U"
-  },
-  {
-    "codigo": "O-SPRAY-AMA",
-    "descripcion": "SPRAY AMARILLO"
-  },
-  {
-    "codigo": "O-SPRAY-AZUL",
-    "descripcion": "SPRAY AZUL"
-  },
-  {
-    "codigo": "O-SPRAY-BLA",
-    "descripcion": "SPRAY BLANCO"
-  },
-  {
-    "codigo": "O-SPRAY-NEG",
-    "descripcion": "SPRAY NEGRO"
-  },
-  {
-    "codigo": "O-SPRAY-ROJ",
-    "descripcion": "SPRAY ROJO"
-  },
-  {
-    "codigo": "E-SB-3/2.2.1/4-069",
-    "descripcion": "SUB BASE 5/2 2 ESTACIONES 1/4 NPT"
-  },
-  {
-    "codigo": "E-TD-6-063",
-    "descripcion": "Tablero de distribucion 6p"
-  },
-  {
-    "codigo": "E-TR-3.10-064",
-    "descripcion": "Taco riel 3 x 10"
-  },
-  {
-    "codigo": "H-TP-0100",
-    "descripcion": "TANQUE PULMON"
-  },
-  {
-    "codigo": "E-TBPC-10.2,44-065",
-    "descripcion": "TAPA BANDEJA PORTA CABLE 10 CMS X 2,44 CMS"
-  },
-  {
-    "codigo": "O-TB-1/4-091",
-    "descripcion": "TAPON BRISTOL 1/4\""
-  },
-  {
-    "codigo": "N-TB-1/4-047",
-    "descripcion": "TAPON BRONCE 1/4"
-  },
-  {
-    "codigo": "N-TB-1/8-048",
-    "descripcion": "TAPON BRONCE 1/8"
-  },
-  {
-    "codigo": "N-TI-1/2-049",
-    "descripcion": "TAPON INOX  1/2\" 304 NPT 150PSI 1"
-  },
-  {
-    "codigo": "E-TBM-069",
-    "descripcion": "TARJETA BADGER METER"
-  },
-  {
-    "codigo": "E-TEMBM-066",
-    "descripcion": "TARJETA ELECTRONICA MARCA BADGER METER MODELO PFT1E"
-  },
-  {
-    "codigo": "H-TI-1/2-101",
-    "descripcion": "TEE 1/2 INOX"
-  },
-  {
-    "codigo": "N-TN-1/2-051",
-    "descripcion": "TEE 1/2 NEUMATICA"
-  },
-  {
-    "codigo": "H-TI-3/4-072",
-    "descripcion": "TEE 3/4 INOX"
-  },
-  {
-    "codigo": "N-TN-3/8-050",
-    "descripcion": "TEE 3/8 NEUMATICA"
-  },
-  {
-    "codigo": "N-TN-8-052",
-    "descripcion": "TEE 8 MM NEUMATICA"
-  },
-  {
-    "codigo": "N-TD-053",
-    "descripcion": "TEMPORIZADOR DIGITAL"
-  },
-  {
-    "codigo": "E-TP-20-067",
-    "descripcion": "Terminal de pin N20"
-  },
-  {
-    "codigo": "E-TPD-18-068",
-    "descripcion": "Terminal pin doble n18"
-  },
-  {
-    "codigo": "O-THI-1G",
-    "descripcion": "THINNER GALON"
-  },
-  {
-    "codigo": "E-TCD-2.15",
-    "descripcion": "Tomacorriente Doble Tipo Leviton 2p+t 15a Naranja + Tapa"
-  },
-  {
-    "codigo": "O-T-5/16.1-063",
-    "descripcion": "TORNILLO 5/16 X1"
-  },
-  {
-    "codigo": "O-TA-1/2-064",
-    "descripcion": "TORNILLO AUTOPERFORANTE 1/2\""
-  },
-  {
-    "codigo": "O-TA-3/4-065",
-    "descripcion": "TORNILLO AUTOPERFORANTE 3/4\""
-  },
-  {
-    "codigo": "O-TA-2-069",
-    "descripcion": "TORNILLO AUTOPERFORANTE PARA METAL 2\""
-  },
-  {
-    "codigo": "O-TH-1/4-070",
-    "descripcion": "TORNILLO HEXAGONAL 1/4 CON TUERCA Y ARANDELA INOX"
-  },
-  {
-    "codigo": "O-TCP-067",
-    "descripcion": "TORNILLO PB CABEZA PLANA"
-  },
-  {
-    "codigo": "O-TB-5/15-068",
-    "descripcion": "TORNILLOS BRISTOL M5X15"
-  },
-  {
-    "codigo": "O-TB-6/15-071",
-    "descripcion": "TORNILLOS BRISTOL M6X15"
-  },
-  {
-    "codigo": "N-TISA-4,20-064",
-    "descripcion": "Tranx-A/232, indicador, salida analoga 4-20mA, 120 240VAC"
-  },
-  {
-    "codigo": "H-TUPP-3/4.1-073",
-    "descripcion": "TUBO POLIPROPILENO 3/4\" VERDE 1m"
-  },
-  {
-    "codigo": "H-UHHP-3/4-046",
-    "descripcion": "UNION POLIPROPILENO 3/4\" VERDE"
-  },
-  {
-    "codigo": "H-UPP-1/2-102",
-    "descripcion": "UNIVERSAL DE POLIPROPILENO 1/2 VERDE"
-  },
-  {
-    "codigo": "H-UPP-3/4-101",
-    "descripcion": "UNIVERSAL DE POLIPROPILENO 3/4 VERDE"
-  },
-  {
-    "codigo": "H-UI-1/2-077",
-    "descripcion": "UNIVERSAL INOXIDABLE 1/2\""
-  },
-  {
-    "codigo": "H-UI-3/4-076",
-    "descripcion": "UNIVERSAL INOXIDABLE 3/4\""
-  },
-  {
-    "codigo": "H-VBPR-1.1/2-079",
-    "descripcion": "VALV BOLA PVC BLANCA ROSCAR 1 1/2\""
-  },
-  {
-    "codigo": "H-VBPR-2-080",
-    "descripcion": "VALV BOLA PVC BLANCA ROSCAR 2\""
-  },
-  {
-    "codigo": "N-VPP-5/2.2.1/4-056",
-    "descripcion": "VALVULA 5/2 PALANCA 2 POSICIONES 1/4\" NPT"
-  },
-  {
-    "codigo": "H-VBPP-3/4-082",
-    "descripcion": "VALVULA BOLA 3/4\" POLIPROPILENO VERDE FUSION"
-  },
-  {
-    "codigo": "H-VBAI-1.1/2-083",
-    "descripcion": "VALVULA BOLA INOXIDABLE 1 1/2\""
-  },
-  {
-    "codigo": "H-VBAI-1-081",
-    "descripcion": "VALVULA BOLA INOXIDABLE 1\" CON ACTUADOR 52 MM"
-  },
-  {
-    "codigo": "H-VBAI-1/2-084",
-    "descripcion": "VALVULA BOLA INOXIDABLE 1/2\""
-  },
-  {
-    "codigo": "H-VBAI-3/4-085",
-    "descripcion": "VALVULA BOLA INOXIDABLE 3/4\""
-  },
-  {
-    "codigo": "H-VBPR-1/2-078",
-    "descripcion": "VALVULA BOLA POLIPROPILENO 3/4\" VERDE"
-  },
-  {
-    "codigo": "H-VBPR-1.1/2-086",
-    "descripcion": "VALVULA BOLA PVC 1 1/2\" ROSCAR"
-  },
-  {
-    "codigo": "H-NHB-1/2-065",
-    "descripcion": "NIPLE HEXAGONAL DE BRONCE 1/2\" X 1/2\""
-  },
-  {
-    "codigo": "H-VE-1/4-087",
-    "descripcion": "VALVULA DE ESCAPE 1/4\""
-  },
-  {
-    "codigo": "N-VER-1/4-057",
-    "descripcion": "VALVULA ESCAPE RAPIDO 1/4 CON RESORTE"
-  },
-  {
-    "codigo": "N-EV-5:2.1/4-064",
-    "descripcion": "ELECTROVÁLVULA 5:2 X 1/4\", 220 V"
-  },
-  {
-    "codigo": "N-VPN-1-058",
-    "descripcion": "VALVULA PISTON NEUMÁTICA 1\" NPT"
-  },
-  {
-    "codigo": "N-VM-3/4-060",
-    "descripcion": "VÁLVULA MOUNTING 3/4\""
-  },
-  {
-    "codigo": "N-VM-1-061",
-    "descripcion": "VÁLVULA MOUNTING 1\""
-  },
-  {
-    "codigo": "N-VPN-3/4-059",
-    "descripcion": "VALVULA PISTÓN NEUMÁTICA 3/4 NPT"
-  },
-  {
-    "codigo": "E-VAR-1.0",
-    "descripcion": "variador 1 hp"
-  },
-  {
-    "codigo": "O-VT-50.300-069",
-    "descripcion": "VINIPEL TRANSPARENTE 50 CMS X 300 MTS"
-  }
+{
+  "id": 2,
+  "nombre": "Hamburguesa Especial",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Pollo, Tocineta, Jamón, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 21000,
+  "imagen": "img/productos/h.especial2.jpeg"
+},
+{
+  "id": 3,
+  "nombre": "Hamburguesa Doble Carne",
+  "categoria": "Hamburguesas",
+  "descripcion": "Doble Carne, Tocineta, Jamón, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 23000,
+  "imagen": "img/productos/h.doblecarne.jpeg"
+},
+{
+  "id": 4,
+  "nombre": "Hamburguesa Ranchera",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Pollo, Chorizo, Tocineta, Jamón, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "precio": 23000,
+  "imagen": "img/productos/h.ranchera2.jpeg"
+},
+{
+  "id": 5,
+  "nombre": "Hamburguesa Filete de Pechuga",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Filete de Pechuga, Tocineta, Jamón, Queso, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 24000,
+  "imagen": "img/productos/h.filete.jpeg"
+},
+{
+  "id": 6,
+  "nombre": "Hamburguesa Super",
+  "categoria": "Hamburguesas",
+  "descripcion": "Doble Carne, Pollo, Tocineta, Jamón, Queso, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 25000,
+  "imagen": "img/productos/h.super2.jpeg"
+},
+{
+  "id": 7,
+  "nombre": "Hamburguesa De la Casa",
+  "categoria": "Hamburguesas",
+  "descripcion": "Carne, Pollo, Carne En Tiras, Tocineta, Maíz, Jamón, Queso, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 26000,
+  "imagen": "img/productos/de la casa.jpeg"
+},
+{
+  "id": 8,
+  "nombre": "Hamburguesa Triple Carne",
+  "categoria": "Hamburguesas",
+  "descripcion": "Tres Carnes, Jamón, Queso, Tocineta, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "precio": 27000,
+  "imagen": "img/productos/h.triplecarne.jpeg"
+},
+{
+  "id": 9,
+  "nombre": "Perro Corriente",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Cebolla Picada, Papa Molida, Queso Rallado, Papa Francesa.",
+  "precio": 10000,
+  "imagen": "img/productos/p.corriente.jpeg"
+},
+{
+  "id": 10,
+  "nombre": "Perro Americano Corriente",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha Americana, Cebolla Picada, Queso Rallado, Papa Francesa.",
+  "precio": 15000,
+  "imagen": "img/productos/p.corriente.jpeg"
+},
+{
+  "id": 11,
+  "nombre": "Perro Especial",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Carne Picada, Pollo, Queso Gratinado, Tocineta, Papa Francesa.",
+  "precio": 21000,
+  "imagen": "img/productos/perroespecial.jpeg"
+},
+{
+  "id": 12,
+  "nombre": "Perro Perroloco",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Carne Picada, Pollo, Chorizo Picado, Tocineta, Queso Gratinado, Papa Francesa.",
+  "precio": 23000,
+  "imagen": "img/productos/p.loco"
+},
+{
+  "id": 13,
+  "nombre": "Perro Americano Especial",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha Americana, Carne Picada, Pollo, Tocineta, Queso Gratinado, Papa Francesa.",
+  "precio": 23000,
+  "imagen": "img/productos/perroespecial.jpeg"
+},
+{
+  "id": 14,
+  "nombre": "Perro Super",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha, Carne Picada, Pollo, Maíz, Tocineta, Chorizo Picado, Queso Gratinado, Papa Francesa.",
+  "precio": 25000,
+  "imagen": "img/productos/p.super.png"
+},
+{
+  "id": 15,
+  "nombre": "Perro Super Americano",
+  "categoria": "Perros Calientes",
+  "descripcion": "Salchicha Americana, Carne Picada, Pollo, Maíz, Tocineta, Chorizo Picado, Queso Gratinado, Papa Francesa.",
+  "precio": 27000,
+  "imagen": "img/productos/p.super.png"
+},
+{
+  "id": 16,
+  "nombre": "Salchipapa",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha En Pulpos, Queso Rallado, Papa Francesa.",
+  "precio": 15000,
+  "imagen": ""
+},
+{
+  "id": 17,
+  "nombre": "Salchipapa Con Americana",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha Americana, Queso Rallado, Papa Francesa.",
+  "precio": 18000,
+  "imagen": ""
+},
+{
+  "id": 18,
+  "nombre": "Salchi Especial",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha En Pulpos, Carne Picada, Pollo, Queso Rallado, Cebolla Grille, Papa Francesa.",
+  "precio": 24000,
+  "imagen": "img/productos/salchi especial.jpeg"
+},
+{
+  "id": 19,
+  "nombre": "Choripapa",
+  "categoria": "Más Delicias",
+  "descripcion": "Chorizo Picado, Queso Rallado, Papa Francesa.",
+  "precio": 17000,
+  "imagen": "img/productos/choripapa.jpeg"
+},
+{
+  "id": 20,
+  "nombre": "Chori Especial",
+  "categoria": "Más Delicias",
+  "descripcion": "Chorizo Picado, Carne Picada, Pollo, Queso Rallado, Cebolla Grille, Papa Francesa.",
+  "precio": 24000,
+  "imagen": ""
+},
+{
+  "id": 21,
+  "nombre": "Salchichori Corriente",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha, Chorizo, Queso Rallado, Papa Francesa.",
+  "precio": 20000,
+  "imagen": ""
+},
+{
+  "id": 22,
+  "nombre": "Salchichori Super",
+  "categoria": "Más Delicias",
+  "descripcion": "Salchicha, Chorizo, Carne Picada, Pollo, Queso Gratinado, Papa Francesa.",
+  "precio": 26000,
+  "imagen": ""
+},
+{
+  "id": 23,
+  "nombre": "Papas Locas",
+  "categoria": "Más Delicias",
+  "descripcion": "Carne Picada, Pollo, Maíz, Cebolla Grille, Queso Gratinado, Papa Francesa.",
+  "precio": 24000,
+  "imagen": ""
+},
+{
+  "id": 24,
+  "nombre": "Papas Locas Super",
+  "categoria": "Más Delicias",
+  "descripcion": "Carne Picada, Pollo, Salchicha Americana, Maíz, Tocineta, Queso Gratinado, Papa Francesa.",
+  "precio": 27000,
+  "imagen": "img/productos/papaslocassuper.jpeg"
+},
+{
+  "id": 25,
+  "nombre": "Papas Locas Criollas",
+  "categoria": "Más Delicias",
+  "descripcion": "Carne Picada, Pollo, Salchicha Americana, Maíz, Tocineta, Queso Gratinado, Chicharrón, Maduro, Papa Francesa.",
+  "precio": 31000,
+  "imagen": "img/productos/papalocascriollas.jpeg"
+},
+{
+    "id": 26,
+    "nombre": "Pechuga a la plancha",
+    "categoria": "Carnes y más",
+    "descripcion": "Pechuga de pollo a la plancha de 250 gramos, acompañada de ensalada y papa a la francesa.",
+    "precio": 22000,
+    "imagen": "img/productos/pechuga asada.jpeg"
+  },
+  {
+    "id": 27,
+    "nombre": "Pechuga gratinada",
+    "categoria": "Carnes y más",
+    "descripcion": "Pechuga de pollo de 250 gramos con maíz, cebolla grillé, queso gratinado y papa a la francesa.",
+    "precio": 25000,
+    "imagen": "pechuga-gratinada.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Carne a la plancha",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne a la plancha de 250 gramos, acompañada de ensalada y papa a la francesa.",
+    "precio": 22000,
+    "imagen": "img/productos/carneplancha.jpeg"
+  },
+  {
+    "id": 29,
+    "nombre": "Carne gratinada",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne de 250 gramos con maíz, cebolla grillé, queso gratinado y papa a la francesa.",
+    "precio": 25000,
+    "imagen": "carne-gratinada.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Desgranado",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne picada, pollo, tocineta, maíz, queso gratinado y papa a la francesa.",
+    "precio": 24000,
+    "imagen": "img/productos/desgranado"
+  },
+  {
+    "id": 31,
+    "nombre": "Patacón",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne picada, pollo, tocineta, maíz, queso gratinado y papa a la francesa.",
+    "precio": 23000,
+    "imagen": "img/productos/patacon.jpeg"
+  },
+  {
+    "id": 32,
+    "nombre": "Bandeja mixta para dos",
+    "categoria": "Carnes y más",
+    "descripcion": "250 gramos de carne, 250 gramos de pollo, chorizo picado y papa a la francesa.",
+    "precio": 39000,
+    "imagen": "bandeja-mixta-para-dos.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "Papa loca súper y media",
+    "categoria": "Carnes y más",
+    "descripcion": "Carne picada, pollo, salchicha americana, maíz, tocineta, queso gratinado y papa a la francesa.",
+    "precio": 39000,
+    "imagen": "papa-loca-super-y-media.jpg"
+  },
+{
+  "id": 34,
+  "nombre": "Botella de Agua",
+  "categoria": "Bebidas",
+  "descripcion": "Botella de agua.",
+  "precio": 3000,
+  "imagen": ""
+},
+{
+  "id": 35,
+  "nombre": "Gaseosa Personal",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa personal.",
+  "precio": 3000,
+  "imagen": ""
+},
+{
+  "id": 36,
+  "nombre": "Coca Cola Personal",
+  "categoria": "Bebidas",
+  "descripcion": "Coca Cola personal.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 37,
+  "nombre": "Mr. Tea Personal (Plástico)",
+  "categoria": "Bebidas",
+  "descripcion": "Mr. Tea personal en plástico.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 38,
+  "nombre": "Hit Personal (Plástico)",
+  "categoria": "Bebidas",
+  "descripcion": "Hit personal en plástico.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 39,
+  "nombre": "Gaseosa 1.1/4 L (Vidrio)",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa 1.1/4 litro en vidrio.",
+  "precio": 6000,
+  "imagen": ""
+},
+{
+  "id": 40,
+  "nombre": "Hit Litro (Vidrio)",
+  "categoria": "Bebidas",
+  "descripcion": "Hit de un litro en vidrio.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 41,
+  "nombre": "Gaseosa 1.5L (Plástico Postobón)",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa 1.5 litros en plástico Postobón.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 42,
+  "nombre": "Gaseosa 1.5L (Plástico Coca-Cola)",
+  "categoria": "Bebidas",
+  "descripcion": "Gaseosa 1.5 litros en plástico Coca-Cola.",
+  "precio": 9000,
+  "imagen": ""
+},
+{
+  "id": 43,
+  "nombre": "Porción de Papa Pequeña",
+  "categoria": "Adicionales",
+  "descripcion": "Porción de papa pequeña.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 44,
+  "nombre": "Porción de Papa Grande",
+  "categoria": "Adicionales",
+  "descripcion": "Porción de papa grande.",
+  "precio": 11000,
+  "imagen": ""
+},
+{
+  "id": 45,
+  "nombre": "Chorizo",
+  "categoria": "Adicionales",
+  "descripcion": "Chorizo.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 46,
+  "nombre": "Salchicha Americana (Zenu)",
+  "categoria": "Adicionales",
+  "descripcion": "Salchicha americana Zenu.",
+  "precio": 7000,
+  "imagen": ""
+},
+{
+  "id": 47,
+  "nombre": "Salchicha Corriente (Zenu)",
+  "categoria": "Adicionales",
+  "descripcion": "Salchicha corriente Zenu.",
+  "precio": 6000,
+  "imagen": ""
+},
+{
+  "id": 48,
+  "nombre": "Tocineta",
+  "categoria": "Adicionales",
+  "descripcion": "Tocineta.",
+  "precio": 4000,
+  "imagen": ""
+},
+{
+  "id": 49,
+  "nombre": "Maíz",
+  "categoria": "Adicionales",
+  "descripcion": "Maíz.",
+  "precio": 5000,
+  "imagen": ""
+},
+{
+  "id": 50,
+  "nombre": "Icopor para Llevar",
+  "categoria": "Adicionales",
+  "descripcion": "Icopor para llevar.",
+  "precio": 1000,
+  "imagen": ""
+}
 ]
