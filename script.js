@@ -70,23 +70,35 @@ function mostrarProductos() {
     });
 }
 
+
 function agregarAlCarrito(id) {
     const producto = productos.find(producto => producto.id === id);
     if (!producto) return;
 
     const existente = carrito.find(item => item.id === id);
-    if (existente) existente.cantidad++;
-    else carrito.push({...producto, cantidad:1});
+
+    if (existente) {
+        existente.cantidad++;
+        existente.unidades.push({ observaciones: "" });
+    } else {
+        carrito.push({
+            ...producto,
+            cantidad: 1,
+            unidades: [{ observaciones: "" }]
+        });
+    }
 
     actualizarCarrito();
     mostrarNotificacion("Producto agregado a la canasta 🛒");
 }
+
 
 function actualizarCarrito() {
     mostrarCarrito();
     actualizarContador();
     actualizarTotal();
 }
+
 
 function mostrarCarrito() {
     itemsCanasta.innerHTML = "";
@@ -101,30 +113,102 @@ function mostrarCarrito() {
     }
 
     carrito.forEach(item => {
+        // Compatibilidad con productos que no tengan unidades registradas
+        if (!item.unidades) {
+            item.unidades = Array.from(
+                { length: item.cantidad },
+                () => ({ observaciones: "" })
+            );
+        }
+
         const elemento = document.createElement("div");
         elemento.className = "item-canasta";
+
+        let observacionesHTML = "";
+
+        item.unidades.forEach((unidad, indice) => {
+            observacionesHTML += `
+                <div class="observacion-unidad">
+                    <label for="obs-${item.id}-${indice}">
+                        Observaciones - ${item.nombre} ${indice + 1}
+                    </label>
+                    <textarea
+                        id="obs-${item.id}-${indice}"
+                        placeholder="Ej.: sin cebolla, sin queso, sin salsas..."
+                        rows="2"
+                        onchange="actualizarObservacion(${item.id}, ${indice}, this.value)"
+                    >${escaparHTML(unidad.observaciones || "")}</textarea>
+                </div>`;
+        });
+
         elemento.innerHTML = `
             <div class="item-info">
                 <h4>${item.nombre}</h4>
                 <p>${formatearPrecio(item.precio)} × ${item.cantidad}</p>
             </div>
+
             <div class="item-controles">
-                <button class="cantidad-btn" onclick="cambiarCantidad(${item.id},-1)">−</button>
+                <button class="cantidad-btn"
+                    onclick="cambiarCantidad(${item.id},-1)">−</button>
                 <strong>${item.cantidad}</strong>
-                <button class="cantidad-btn" onclick="cambiarCantidad(${item.id},1)">+</button>
-                <button class="eliminar-item" onclick="eliminarProducto(${item.id})">🗑️</button>
+                <button class="cantidad-btn"
+                    onclick="cambiarCantidad(${item.id},1)">+</button>
+                <button class="eliminar-item"
+                    onclick="eliminarProducto(${item.id})">🗑️</button>
+            </div>
+
+            <div class="observaciones-producto">
+                ${observacionesHTML}
             </div>`;
+
         itemsCanasta.appendChild(elemento);
     });
 }
 
+
+function actualizarObservacion(id, indice, texto) {
+    const producto = carrito.find(item => item.id === id);
+    if (!producto || !producto.unidades[indice]) return;
+
+    producto.unidades[indice].observaciones = texto;
+}
+
+function escaparHTML(texto) {
+    return String(texto)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+
+
+
 function cambiarCantidad(id, cambio) {
     const producto = carrito.find(item => item.id === id);
     if (!producto) return;
+
+    if (!producto.unidades) {
+        producto.unidades = Array.from(
+            { length: producto.cantidad },
+            () => ({ observaciones: "" })
+        );
+    }
+
     producto.cantidad += cambio;
-    if (producto.cantidad <= 0) carrito = carrito.filter(item => item.id !== id);
+
+    if (producto.cantidad <= 0) {
+        carrito = carrito.filter(item => item.id !== id);
+    } else if (cambio > 0) {
+        producto.unidades.push({ observaciones: "" });
+    } else {
+        producto.unidades.pop();
+    }
+
     actualizarCarrito();
 }
+
 
 function eliminarProducto(id) {
     carrito = carrito.filter(item => item.id !== id);
@@ -197,10 +281,21 @@ enviarWhatsApp.addEventListener("click", () => {
     mensaje += "📱 *Teléfono:* " + telefono + "\n\n";
     mensaje += "🛒 *PEDIDO:*\n";
 
+    
     carrito.forEach(item => {
-        mensaje += "• " + item.cantidad + "x " + item.nombre + " - " +
-            formatearPrecio(item.precio * item.cantidad) + "\n";
+     mensaje += "• " + item.cantidad + "x " + item.nombre +
+        " - " + formatearPrecio(item.precio * item.cantidad) + "\n";
+
+     if (item.unidades) {
+         item.unidades.forEach((unidad, indice) => {
+            if (unidad.observaciones && unidad.observaciones.trim()) {
+                mensaje += "   - Unidad " + (indice + 1) +
+                    ": " + unidad.observaciones.trim() + "\n";
+                }
+            });
+        }
     });
+
 
     const total = carrito.reduce((suma,item) => suma + item.precio * item.cantidad,0);
     mensaje += "\n💰 *TOTAL SIN DOMICILIO: " + formatearPrecio(total) + "*\n";

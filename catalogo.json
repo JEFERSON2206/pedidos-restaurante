@@ -5,37 +5,37 @@
   "categoria": "Hamburguesas",
   "descripcion": "Carne, Jamón, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
   "precio": 16000,
-  "imagen": ""
+  "imagen": "img/productos/h.corriente.jpeg"
 },
 {
   "id": 2,
   "nombre": "Hamburguesa Especial",
   "categoria": "Hamburguesas",
-  "descripcion": "Carne, Pollo, Tocineta, Queso Chédar, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "descripcion": "Carne, Pollo, Tocineta, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
   "precio": 21000,
-  "imagen": "img/productos/h.especial.jpeg"
+  "imagen": "img/productos/h.especial2.jpeg"
 },
 {
   "id": 3,
   "nombre": "Hamburguesa Doble Carne",
   "categoria": "Hamburguesas",
-  "descripcion": "Doble Carne, Tocineta, Queso Chédar, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "descripcion": "Doble Carne, Tocineta, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
   "precio": 23000,
-  "imagen": ""
+  "imagen": "img/productos/h.doblecarne.jpeg"
 },
 {
   "id": 4,
   "nombre": "Hamburguesa Ranchera",
   "categoria": "Hamburguesas",
-  "descripcion": "Carne, Pollo, Chorizo, Tocineta, Queso Chédar, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
+  "descripcion": "Carne, Pollo, Chorizo, Tocineta, Queso, Cebolla Grille, Tomate, Lechuga, Papa Francesa.",
   "precio": 23000,
-  "imagen": "img/productos/h.ranchera.jpeg"
+  "imagen": "img/productos/h.ranchera2.jpeg"
 },
 {
   "id": 5,
   "nombre": "Hamburguesa Filete de Pechuga",
   "categoria": "Hamburguesas",
-  "descripcion": "Carne, Filete de Pechuga, Tocineta, Queso Chédar, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "descripcion": "Carne, Filete de Pechuga, Tocineta, Queso, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
   "precio": 24000,
   "imagen": "img/productos/h.filete.jpeg"
 },
@@ -43,15 +43,15 @@
   "id": 6,
   "nombre": "Hamburguesa Super",
   "categoria": "Hamburguesas",
-  "descripcion": "Doble Carne, Pollo, Tocineta, Queso Chédar, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "descripcion": "Doble Carne, Pollo, Tocineta, Queso, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
   "precio": 25000,
-  "imagen": "img/productos/h.super.jpeg"
+  "imagen": "img/productos/h.super2.jpeg"
 },
 {
   "id": 7,
   "nombre": "Hamburguesa De la Casa",
   "categoria": "Hamburguesas",
-  "descripcion": "Carne, Pollo, Carne En Tiras, Tocineta, Maíz, Queso Chédar, Cebolla Grille, Lechuga, Papa Francesa.",
+  "descripcion": "Carne, Pollo, Carne En Tiras, Tocineta, Maíz, Queso, Cebolla Grille, Lechuga, Papa Francesa.",
   "precio": 26000,
   "imagen": "img/productos/de la casa.jpeg"
 },
@@ -59,9 +59,9 @@
   "id": 8,
   "nombre": "Hamburguesa Triple Carne",
   "categoria": "Hamburguesas",
-  "descripcion": "Tres Carnes, Queso Chédar, Tocineta, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
+  "descripcion": "Tres Carnes, Queso, Tocineta, Tomate, Cebolla Grille, Lechuga, Papa Francesa.",
   "precio": 27000,
-  "imagen": ""
+  "imagen": "img/productos/h.triplecarne.jpeg"
 },
 {
   "id": 9,
@@ -69,7 +69,7 @@
   "categoria": "Perros Calientes",
   "descripcion": "Salchicha, Cebolla Picada, Papa Molida, Queso Rallado, Papa Francesa.",
   "precio": 10000,
-  "imagen": ""
+  "imagen": "img/productos/p.corriente.jpeg"
 },
 {
   "id": 10,
@@ -77,7 +77,7 @@
   "categoria": "Perros Calientes",
   "descripcion": "Salchicha Americana, Cebolla Picada, Queso Rallado, Papa Francesa.",
   "precio": 15000,
-  "imagen": ""
+  "imagen": "img/productos/p.corriente.jpeg"
 },
 {
   "id": 11,
@@ -93,7 +93,7 @@
   "categoria": "Perros Calientes",
   "descripcion": "Salchicha, Carne Picada, Pollo, Chorizo Picado, Tocineta, Queso Gratinado, Papa Francesa.",
   "precio": 23000,
-  "imagen": ""
+  "imagen": "img/productos/p.loco"
 },
 {
   "id": 13,
@@ -101,7 +101,7 @@
   "categoria": "Perros Calientes",
   "descripcion": "Salchicha Americana, Carne Picada, Pollo, Tocineta, Queso Gratinado, Papa Francesa.",
   "precio": 23000,
-  "imagen": ""
+  "imagen": "img/productos/perroespecial.jpeg"
 },
 {
   "id": 14,
@@ -109,7 +109,7 @@
   "categoria": "Perros Calientes",
   "descripcion": "Salchicha, Carne Picada, Pollo, Maíz, Tocineta, Chorizo Picado, Queso Gratinado, Papa Francesa.",
   "precio": 25000,
-  "imagen": ""
+  "imagen": "img/productos/p.super.png"
 },
 {
   "id": 15,
@@ -117,7 +117,7 @@
   "categoria": "Perros Calientes",
   "descripcion": "Salchicha Americana, Carne Picada, Pollo, Maíz, Tocineta, Chorizo Picado, Queso Gratinado, Papa Francesa.",
   "precio": 27000,
-  "imagen": ""
+  "imagen": "img/productos/p.super.png"
 },
 {
   "id": 16,
@@ -141,7 +141,7 @@
   "categoria": "Más Delicias",
   "descripcion": "Salchicha En Pulpos, Carne Picada, Pollo, Queso Rallado, Cebolla Grille, Papa Francesa.",
   "precio": 24000,
-  "imagen": ""
+  "imagen": "img/productos/salchi especial.jpeg"
 },
 {
   "id": 19,
@@ -149,7 +149,7 @@
   "categoria": "Más Delicias",
   "descripcion": "Chorizo Picado, Queso Rallado, Papa Francesa.",
   "precio": 17000,
-  "imagen": ""
+  "imagen": "img/productos/choripapa.jpeg"
 },
 {
   "id": 20,
@@ -205,7 +205,7 @@
     "categoria": "Carnes y más",
     "descripcion": "Pechuga de pollo a la plancha de 250 gramos, acompañada de ensalada y papa a la francesa.",
     "precio": 22000,
-    "imagen": "pechuga-plancha.jpg"
+    "imagen": "img/productos/pechuga asada.jpeg"
   },
   {
     "id": 27,
@@ -237,7 +237,7 @@
     "categoria": "Carnes y más",
     "descripcion": "Carne picada, pollo, tocineta, maíz, queso gratinado y papa a la francesa.",
     "precio": 24000,
-    "imagen": "desgranado.jpg"
+    "imagen": "img/productos/desgranado"
   },
   {
     "id": 31,
